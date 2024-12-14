@@ -32,7 +32,7 @@ nav:
   # 左侧盒子
   group:
     我的:
-      个人主页: https://www.qqzhi.cc || fas fa-house
+      个人主页: https://www.qqzhi.cc || /favicon.ico
 
   # Menu
   # 菜单
@@ -133,7 +133,7 @@ aside:
     style: 1 # 0: default 1: style 1 2: style 2
     author:
       img: /img/avatar.webp # url
-      sticker: /img/avatar.webp # url, 24x24 size
+      sticker: # url, 24x24 size
     url: /about/ # link / 点击头像跳转链接
     background:  https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
     # Content(Invalid if style is 0)
@@ -340,7 +340,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: local
+    mode: api
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / 缓存时间
@@ -411,11 +411,11 @@ lure:
 # Article expiration
 # 文章过期
 expire:
-  enable: true
-  time: 30 # days
+  enable: false
+  time: 1 # days
   position: top # top / bottom
-  text_prev: "该文章写成于 "
-  text_next: " 天前，赶紧去催更吧！"
+  text_prev: "该文章更新于 "
+  text_next: " 天前，说不定已经过时了……赶紧去催更吧！"
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -442,7 +442,7 @@ related_post:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: true
+  enable: false
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: false
@@ -699,7 +699,7 @@ highlight:
 lightbox: false
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
-fancybox: true # fancybox
+fancybox: false # fancybox
 mediumZoom: false # mediumZoom
 # --------------------------- end ---------------------------
 
@@ -742,10 +742,10 @@ wordcount: true
 # Latex formula support
 # Latex 公式支持
 katex:
-  enable: false
+  enable: true
   # Whether to load on each page
   # 是否在每个页面加载
-  per_page: false
+  per_page: true
   # Whether to enable copy formula
   # 是否启用复制公式
   copytex: false

@@ -4,7 +4,7 @@
 
 # Site
 title: 旅禾小栈
-subtitle: '未名岛'
+subtitle: '浮云一别后，流水十年间'
 description: '旅禾小栈·未名岛静候你的光临（博客文章专栏主页）'
 keywords: 未名岛,邱泉智,旅禾,旅禾小栈,旅禾Tristan,Qiu Quanzhi,主页,博客,blog
 author: 旅禾Tristan
@@ -102,3 +102,10 @@ theme: solitude
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+search:
+  path: search.xml
+  field: all
+  content: true
+  format: html
