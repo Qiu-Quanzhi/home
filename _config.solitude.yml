@@ -742,10 +742,10 @@ wordcount: true
 # Latex formula support
 # Latex 公式支持
 katex:
-  enable: true
+  enable: false
   # Whether to load on each page
   # 是否在每个页面加载
-  per_page: true
+  per_page: false
   # Whether to enable copy formula
   # 是否启用复制公式
   copytex: false
