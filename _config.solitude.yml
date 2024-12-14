@@ -21,7 +21,7 @@ site:
   name:
     class: text # text / i_class / img
     custom: 旅禾小栈·未名岛 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  icon: favicon.ico # Site icon / 网站图标
+  icon: /favicon.ico # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -248,7 +248,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - https://www.qqzhi.cc/assets/works/blog.webp # 默认图片 / default cover
+       - /img/blog.webp # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -262,7 +262,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - https://www.qqzhi.cc/assets/works/blog.webp # 默认图片 / default cover
+       - /img/blog.webp # 默认图片 / default cover
     # Location
     # 位置
     locate: China
@@ -551,7 +551,7 @@ rightside:
 footer:
   # 信息社交图标
   information:
-    author: favicon.ico # img url / false
+    author: /favicon.ico # img url / false
     left:
       Github: https://github.com/Qiu-Quanzhi || fab fa-github # 名称: 链接 || 图标
       Mail: mailto:i@qqzhi.cc || fab fa-envelope
