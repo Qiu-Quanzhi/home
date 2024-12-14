@@ -32,7 +32,7 @@ nav:
   # 左侧盒子
   group:
     我的:
-      个人主页: https://www.qqzhi.cc || /icons/home.svg
+      个人主页: https://www.qqzhi.cc || fas fa-house
 
   # Menu
   # 菜单
@@ -151,15 +151,15 @@ aside:
     # Style 2 is invalid, Triggered when sayhello is clicked.
     # Style 2 无效, 点击 sayhello 时触发
     sayhello2:
-      # - 你可以的
-      # - 你一定可以的
-      # - 祝你好运，陌生人
+      - 你可以的
+      - 你一定可以的
+      - 祝你好运，陌生人
     # social
     # 社交信息图标
     information:
       Github: https://github.com/Qiu-Quanzhi || fab fa-github # Name: link || icon
       Bilibili: https://space.bilibili.com/1036651852 || fab fa-bilibili
-      Mail: mailto:i@qqzhi.cc || fab fa-envelope
+      Mail: mailto:i@qqzhi.cc || far fa-envelope
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -248,7 +248,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - /img/blog.webp # 默认图片 / default cover
+       - img/blog.webp # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -310,8 +310,8 @@ post:
     appreciators: /about/ # Reward page
     # Reward Title
     # 打赏标题
-    title: Thanks for your appreciation. / 感谢您的赞赏
-    desc: Because of your support, I realize the value of writing articles. / 由于您的支持，我才能够实现写作的价值。
+    title: 感谢您的赞赏
+    desc: 由于您的支持，我才能够实现写作的价值。
     # Reward list
     # 打赏列表
     list:
@@ -340,7 +340,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: ave
+    mode: local
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / 缓存时间
@@ -554,10 +554,10 @@ footer:
     author: /favicon.ico # img url / false
     left:
       Github: https://github.com/Qiu-Quanzhi || fab fa-github # 名称: 链接 || 图标
-      Mail: mailto:i@qqzhi.cc || fab fa-envelope
+      Mail: mailto:i@qqzhi.cc || far fa-envelope
     right:
       Bilibili: https://space.bilibili.com/1036651852 || fab fa-bilibili
-      # Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
+      Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
   group:
     导航:
       Archives: /archives/

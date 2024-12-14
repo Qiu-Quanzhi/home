@@ -41,9 +41,15 @@ importers:
       hexo-theme-solitude:
         specifier: ^2.1.13
         version: 2.1.13
+      hexo-util:
+        specifier: ^3.3.0
+        version: 3.3.0
       hexo-wordcount:
         specifier: ^6.0.1
         version: 6.0.1
+      moment:
+        specifier: ^2.30.1
+        version: 2.30.1
 
 packages:
 
