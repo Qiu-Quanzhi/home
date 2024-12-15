@@ -20,7 +20,7 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: 旅禾小栈·未名岛 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    custom: 旅禾小栈 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: /favicon.ico # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
@@ -45,10 +45,10 @@ nav:
     友链:
       # 朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
-      宝藏博主: https://www.travellings.cn/go || fas fa-gift
+      开往随机博主: https://www.travellings.cn/go || fas fa-train-subway
     关于:
-      关于我: /about/
-      我的主页: https://www.qqzhi.cc/
+      关于我: /about/ || fas fa-image-portrait
+      我的主页: https://www.qqzhi.cc/ || fas fa-house-user
       # 我的装备: /equipment/ || fas fa-laptop
       # 在线工具: /tlink/ || fas fa-toolbox
       # 音乐馆: /music/ || fas fa-music
@@ -72,32 +72,53 @@ hometop:
   enable: true
   banner:
     title: 分装学识 <br> 分装快乐 # 标题
-    url: ·欢迎来到旅禾小栈！ # 小字
+    url: 欢迎来到旅禾小栈！ # 小字
     icon:
-      HTML: # name
-        img: https://i.postimg.cc/vBWVnY8q/html.png # url
-        color: "#e9572b" # color
-      JS:
-        img: https://i.postimg.cc/3N10Ltv2/js.png
-        color: "#f7cb4f"
-      Docker:
-        img: https://i.postimg.cc/8Pk6Fg24/docker.png
-        color: "#57b6e6"
-      Flutter:
-        img: https://i.postimg.cc/hPC7T3gB/flutter.png
-        color: "#ffffff"
-      WebPack:
-        img: https://i.postimg.cc/dVLZBmtT/webpack.png
-        color: "#2e3a41"
-      Git:
-        img: https://i.postimg.cc/nhgjwjCS/git.png
-        color: "#df5b40"
+    - title: C++
+      icon: fab fa-c
+      color: "#e9572b"
+    - title: Javascript
+      icon: fab fa-square-js
+      color: "#f7cb4f"
+    - title: Git
+      icon: fab fa-git-alt
+      color: "#df5b40"
+    - title: Markdown
+      icon: fab fa-markdown
+      color: "#4d4d4d"
+    - title: Vue
+      icon: fab fa-vuejs
+      color: "#42d392"
+    - title: 旅行
+      icon: fas fa-earth-asia
+      color: "#66ccff"
+    - title: 摄影
+      icon: fas fa-camera
+      color: "#66ccff"
+    - title: 编程
+      icon: fas fa-code
+      color: "#66ccff"
+    - title: 理论
+      icon: fas fa-graduation-cap
+      color: "#66ccff"
+    - title: 翻译
+      icon: fas fa-language
+      color: "#66ccff"
+    - title: 骑行
+      icon: fas fa-person-biking
+      color: "#66ccff"
+    - title: 哔哩哔哩
+      icon: fab fa-bilibili
+      color: "#00a1d6"
+    - title: Github
+      icon: fab fa-github-alt
+      color: "#1e3050"
   group:
-    推荐文章: /tags/推荐/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    推荐文章: /tags/推荐/ || fas fa-newspaper || linear-gradient(to right,#f65,#ffbf37)
   recommendList:
     enable: true
     sup: 置顶
-    title: 关于我
+    title: 关于我·现实身份
     url: /about/
     img: /img/default.avif
     color: "#ddd"
@@ -501,7 +522,7 @@ chart: false
 
 # --------------------------- start ---------------------------
 # typeit
-typeit: false
+typeit: true
 # --------------------------- end ---------------------------
 
 ### Extended configuration
@@ -561,12 +582,15 @@ footer:
       Bilibili: https://space.bilibili.com/1036651852 || fab fa-bilibili
       Douyin: https://v.douyin.com/iUhybD4K/ || fab fa-tiktok
   group:
-    本站总览:
+    文库:
       归档: /archives/
       分类: /categories/
       标签: /tags/
-    本站政策:
-      Cookies: /cookies/
+    友链:
+      友情链接: /links/
+      开往随机博主: https://www.travellings.cn/go
+    政策:
+      联系: https://www.qqzhi.cc/
       版权: /copyright/
 
   # 随机友链

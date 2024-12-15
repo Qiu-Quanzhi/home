@@ -1,12 +1,12 @@
 authorinfo:
   leftTags:
-    - 🤖️ 技术爱好者 
+    - 🌐 技术爱好者 
     - 🔍 分享与帮助
     - 🏠 社区贡献者
   rightTags:
     - OIer 🖥️
     - ENTJ-A 👔
-    - 积极进取 ☀️
+    - 积极进取 📈
   image: /img/avatar.webp
 title: 关于我
 contentinfo: # Top personal information display
@@ -44,9 +44,9 @@ cause:
 skills: # Add as needed
   title: 工具&平台
   subtitle: 兴趣技能与活跃平台
-  tags:
+  tags:  # icon 可使用 Font Awesome 图标 / img 和 icon 属性不应同时使用
     - title: C++
-      icon: fab fa-c  # icon 可使用 Font Awesome 图标 / img 和 icon 属性不应同时使用
+      icon: fab fa-c
       color: "#e9572b"
     - title: Javascript
       icon: fab fa-square-js
