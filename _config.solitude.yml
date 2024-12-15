@@ -43,13 +43,15 @@ nav:
       全部分类: /categories/ || fas fa-clone
       全部标签: /tags/ || fas fa-tags
     友链:
-      朋友圈: /moments/ || fas fa-wifi
+      # 朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
-      宝藏博主: javascript:travelling() || fas fa-gift
+      宝藏博主: https://www.travellings.cn/go || fas fa-gift
     关于:
-      我的装备: /equipment/ || fas fa-laptop
-      在线工具: /tlink/ || fas fa-toolbox
-      音乐馆: /music/ || fas fa-music
+      关于我: /about/
+      我的主页: https://www.qqzhi.cc/
+      # 我的装备: /equipment/ || fas fa-laptop
+      # 在线工具: /tlink/ || fas fa-toolbox
+      # 音乐馆: /music/ || fas fa-music
 
   # Right button
   # 右侧按钮
@@ -57,8 +59,8 @@ nav:
     random: true # Random article / 随机文章按钮
     custom:
       - name: 开往 # 名字
-        url: https://www.travellings.cn/go.html # 跳转链接
-        icon: fas fa-train # 图标
+        url: https://www.travellings.cn/go # 跳转链接
+        icon: fas fa-train-subway # 图标
         onclick: # 点击事件
         id: travellings_button # id
 # --------------------------- end ---------------------------
@@ -69,8 +71,8 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 宁静致远 <br> 热爱生活 # 标题
-    url: Hexo Theme Solitude # 小字
+    title: 分装学识 <br> 分装快乐 # 标题
+    url: ·欢迎来到旅禾小栈！ # 小字
     icon:
       HTML: # name
         img: https://i.postimg.cc/vBWVnY8q/html.png # url
@@ -91,14 +93,14 @@ hometop:
         img: https://i.postimg.cc/nhgjwjCS/git.png
         color: "#df5b40"
   group:
-    热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    推荐文章: /tags/推荐/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
   recommendList:
     enable: true
     sup: 置顶
-    title: Solitude 官方文档
-    url: https://solitude.js.org/
+    title: 关于我
+    url: /about/
     img: /img/default.avif
-    color: "none"
+    color: "#ddd"
 
 # Article Top Banner
 # 文章推荐轮播图
@@ -222,7 +224,7 @@ aside:
     runtimeenable: true
     # Format: yyyy-MM-dd hh-mm-ss
     # 格式: yyyy-MM-dd hh-mm-ss
-    runtime: "2022-08-16 00:00:00"
+    runtime: "2023-06-30 00:00:00"
   # --------------------------- end ---------------------------
 # --------------------------- end ---------------------------
 
@@ -265,7 +267,7 @@ post:
        - /img/blog.webp # 默认图片 / default cover
     # Location
     # 位置
-    locate: China
+    locate: 中国·广东
     # Copyright
     # 版权
     copyright:
@@ -280,7 +282,7 @@ post:
       license: CC BY-NC-SA 4.0
       # License link
       # 许可证链接
-      licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+      licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
   # Article meta information
   # 文章元信息
   meta:
@@ -357,7 +359,7 @@ post:
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
-  dark: "#ffc848" # dark
+  dark: "#66ccff" # dark
   light: "#66ccff" # light
 # --------------------------- end ---------------------------
 
@@ -557,21 +559,20 @@ footer:
       Mail: mailto:i@qqzhi.cc || far fa-envelope
     right:
       Bilibili: https://space.bilibili.com/1036651852 || fab fa-bilibili
-      Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
+      Douyin: https://v.douyin.com/iUhybD4K/ || fab fa-tiktok
   group:
-    导航:
-      Archives: /archives/
-      Categories: /categories/
-      Tags: /tags/
-    排列:
+    本站总览:
+      归档: /archives/
+      分类: /categories/
+      标签: /tags/
+    本站政策:
       Cookies: /cookies/
-      Privacy: /privacy/
-      Copyright: /copyright/
+      版权: /copyright/
 
   # 随机友链
   randomlink: false # 随机友链
   # 许可证
-  license: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh # 许可证
+  license: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans # 许可证
 
   # 备案
   beian:
@@ -584,9 +585,9 @@ footer:
   # 页脚信息文字
   # 请不要删除主题信息，这是对作者的尊重
   links:
-    - name: Theme
-      url: https://github.com/everfu/hexo-theme-solitude
-    - name: RSS
+    - name: 主题
+      url: https://solitude.js.org/zh/
+    - name: 订阅
       url: /atom.xml
 # --------------------------- end ---------------------------
 
@@ -742,10 +743,10 @@ wordcount: true
 # Latex formula support
 # Latex 公式支持
 katex:
-  enable: false
+  enable: true
   # Whether to load on each page
   # 是否在每个页面加载
-  per_page: false
+  per_page: true
   # Whether to enable copy formula
   # 是否启用复制公式
   copytex: false

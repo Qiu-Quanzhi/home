@@ -19,10 +19,31 @@ contentinfo: # Top personal information display
     - 注册志愿者
     - 信息学竞赛选手
     - 哔哩哔哩UP主
-    - Github社区
+    - Github开发者
+# oneself: # Fill in as needed
+#   # location: 中国, 广东 # Location
+#   birthYear: 2008 # Birthday
+#   university: 现居 # Graduated from
+#   major: 中国广东 # Major
+#   occupation: 学生 # Occupation
+#   map: # Map of your location
+#     light: https://7.isyangs.cn/1/65eb2ec63a9aa-1.png # Daytime
+#     dark: https://7.isyangs.cn/1/65eb2eedc780e-1.png # Nighttime
+motto:
+  title: 个人格言
+  prefix: 永不熄灭的理想之焰，
+  content: 足可抵挡凛冬的风霜刀剑。
+cause:
+  tip: 建栈所思
+  title: 一字一世界·欢迎来到我的博客！
+  content:
+    <p>网络浩瀚，时不时想写点文章、抒发情怀的我，想在纷杂的信息驿道上，开个属于自己的小栈。</p>
+    <p>建栈的初衷很简短：<b>分装学识、分装快乐！</b>开设以来，凡吾所学、所思、所想、所感，均整理刊载至此。</p>
+    <p>在这里，愿诸君能够得到新的启发、新的见解、新的思绪，悄悄踏足一片片人生的投影，然后开拓一段段属于自己的旅途。</p>
+    <p>本人才疏学浅，还望能博客君一笑。在此再次欢迎光临本站！</p>
 skills: # Add as needed
   title: 工具&平台
-  subtitle: 技能与活跃平台
+  subtitle: 兴趣技能与活跃平台
   tags:
     - title: C++
       icon: fab fa-c  # icon 可使用 Font Awesome 图标 / img 和 icon 属性不应同时使用
@@ -73,29 +94,25 @@ personalities:
   linkText: 16personalities
   typeLink: https://www.16personalities.com/ch/ENTJ-人格
   typeName: 指挥官人格
-  myphoto: https://www.16personalities.com/static/images/theory/traits/16personalities_trait_extraverted.svg
-motto:
-  title: 座右铭
-  prefix: 永不熄灭的理想之焰，
-  content: 足可抵挡凛冬的风霜刀剑。
+  myphoto: https://www.16personalities.com/static/animations/type-descriptions/introductions/commander.svg
 # expertise:
 #   title: 专长
 #   prefix: 数学, 物理, 化学
 #   specialist: 专家
 #   content: 学习能力
 #   level: MAX
-game:
-    # box_shadow: '0 -69px 203px 11px #04120f inset'
-  - title: 游戏爱好
-    img: /img/minecraft.webp
-    subtitle: Minecraft
-    box_shadow: '0 -69px 203px 11px #415dc9 inset'
-    tips_right: ID Ryoine
-  - title: 游戏爱好
-    img: https://7.isyangs.cn/66/6738b3618ee12-66.webp
-    subtitle: 狼人杀
-    box_shadow: '0 -69px 203px 11px #415dc9 inset'
-    tips_left: ID 1333E3FF
+# game:
+#     # box_shadow: '0 -69px 203px 11px #04120f inset'
+#   - title: 游戏爱好
+#     img: /img/minecraft.webp
+#     subtitle: Minecraft
+#     box_shadow: '0 -69px 203px 11px #415dc9 inset'
+#     tips_right: ID Ryoine
+#   - title: 游戏爱好
+#     img: https://7.isyangs.cn/66/6738b3618ee12-66.webp
+#     subtitle: 狼人杀
+#     box_shadow: '0 -69px 203px 11px #415dc9 inset'
+#     tips_left: ID 1333E3FF
 likes:
   - type: like-technology
     bg: https://7.isyangs.cn/66/6738b3606d9d3-66.webp
@@ -107,61 +124,42 @@ likes:
     tips: 游戏偏好
     title: Minecraft
     subtips: "ID: Ryoine"
-    button: false
-    button_text: 档案公示
+    button: true
+    button_text: NameMC
     button_link: https://namemc.com/profile/Ryoine
-tj:
-  provider: custom # Value can be 51la (51la website statistics) or custom
-  url: https://api.everfu.cn/pv/ # Need to register and obtain from the 51la official website or set up your own Baidu statistics project and fill in the access address
-  img: https://7.isyangs.cn/1/65eb2e9109826-1.png # Background
-oneself: # Fill in as needed
-  location: 中国, 湖南 # Location
-  birthYear: 2004 # Birthday
-  university: 江西软件职业技术大学 # Graduated from
-  major: 软件工程 # Major
-  occupation: 学生 # Occupation
-  map: # Map of your location
-    light: https://7.isyangs.cn/1/65eb2ec63a9aa-1.png # Daytime
-    dark: https://7.isyangs.cn/1/65eb2eedc780e-1.png # Nighttime
-cause:
-  tip: 初衷
-  title: 为什么建立这个网站？
-  content:
-    <br>创建这个网站的初衷是有一个地方可以 <b>积累知识和兴趣</b>。与他人分享可以让这些成为积累和沉淀。如果我能帮助更多的人并解决他们的问题，那就太好了。
-    <br>
-    与大多数垂直技术博客不同，这里的类别将非常多样，包括 <b>教程和实用知识</b>、<b>生活轶事和建议</b>、<b>各种主题的思考和想法</b>。无论我研究或发现什么，我都会在这里分享。
-    <br>
-    这是创建这个小网站的初衷，也是 <b>我分享生活的方式</b>。我很幸运在这里遇见你，我相信我们可以一起留下一些美好的回忆。
-    <br>
-tenyear:
-  tips: 十年之约
-  title: 孤独一人，众乐乐。
-  start: 2024-04-20
-  end: 2034-04-20
+# tj:
+  # provider: custom # Value can be 51la (51la website statistics) or custom
+  # url: https://api.everfu.cn/pv/ # Need to register and obtain from the 51la official website or set up your own Baidu statistics project and fill in the access address
+  # img: https://7.isyangs.cn/1/65eb2e9109826-1.png # Background=
+# tenyear:
+#   tips: 十年之约
+#   title: 孤独一人，众乐乐。
+#   start: 2024-04-20
+#   end: 2034-04-20
 award:
   enable: true
   description: 感谢大家的支持和鼓励。因为你们，我感到写作博客可以为你们创造价值。这将使我在这条路上走得更远。
   tips: '总金额: ¥ {sum}, 将用于博客的维护和更新。'
 rewardList: # Bottom donations
-  - name: 悦华
-    money: 5
-    time: 2023-04-20
-    icon: fab fa-weixin
-  - name: 糕小菜
-    money: 6.66
-    time: 2023-08-11
-    icon: fab fa-alipay
-    vip: true
-  - name: 木木
-    money: 5
-    time: 2023-08-11
-    icon: fab fa-weixin
-  - name: 悦华
-    money: 56
-    vip: true
-    time: 2023-08-25
-    icon: fab fa-weixin
-  - name: 糕小菜
-    money: 3.33
-    time: 2023-12-24
-    icon: fab fa-alipay
+  # - name: 悦华
+  #   money: 5
+  #   time: 2023-04-20
+  #   icon: fab fa-weixin
+  # - name: 糕小菜
+  #   money: 6.66
+  #   time: 2023-08-11
+  #   icon: fab fa-alipay
+  #   vip: true
+  # - name: 木木
+  #   money: 5
+  #   time: 2023-08-11
+  #   icon: fab fa-weixin
+  # - name: 悦华
+  #   money: 56
+  #   vip: true
+  #   time: 2023-08-25
+  #   icon: fab fa-weixin
+  # - name: 糕小菜
+  #   money: 3.33
+  #   time: 2023-12-24
+  #   icon: fab fa-alipay
