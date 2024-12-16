@@ -1,17 +1,23 @@
 banner_suffix: 
 links:
-   - class_name: 推荐
-     descr: 参与本站开发、提供设计灵感、捐助本站的优秀博主
+   - class_name: 本站
+     descr: 参与开发与设计，提供灵感与捐助
      type: card
      suffix: 
      link_list:
         - name: 旅禾Tristan
           link: https://www.qqzhi.cc
-          descr: 永不熄灭的理想之焰，足可抵挡凛冬的风霜刀剑
+          descr: 欢迎来到旅禾小栈！
           avatar: /img/avatar.webp
           topimg: /img/avatar.webp
           tag: 博主
           color: vip
+        - name: Solitude
+          link: https://solitude.js.org/zh/
+          descr: 专注于内容，提供优秀的阅读体验
+          avatar: https://solitude.js.org/favicon.svg
+          topimg: https://solitude.js.org/favicon.svg
+          tag: 主题框架
 
   #  - class_name: 推荐 # 分类名称
   #    descr: 参与本站开发、提供设计灵感、捐助本站的优秀博主 # 分类简介

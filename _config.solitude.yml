@@ -44,11 +44,11 @@ nav:
       全部标签: /tags/ || fas fa-tags
     友链:
       # 朋友圈: /moments/ || fas fa-wifi
-      友情链接: /links/ || fas fa-user-group
+      友情链接&鸣谢: /links/ || fas fa-user-group
       开往随机博主: https://www.travellings.cn/go || fas fa-train-subway
     关于:
       关于我: /about/ || fas fa-image-portrait
-      我的主页: https://www.qqzhi.cc/ || fas fa-house-user
+      前往我的主页: https://www.qqzhi.cc/ || fas fa-house-user
       # 我的装备: /equipment/ || fas fa-laptop
       # 在线工具: /tlink/ || fas fa-toolbox
       # 音乐馆: /music/ || fas fa-music
@@ -582,19 +582,16 @@ footer:
       Bilibili: https://space.bilibili.com/1036651852 || fab fa-bilibili
       Douyin: https://v.douyin.com/iUhybD4K/ || fab fa-tiktok
   group:
-    文库:
-      归档: /archives/
-      分类: /categories/
-      标签: /tags/
-    友链:
-      友情链接: /links/
-      开往随机博主: https://www.travellings.cn/go
     政策:
-      联系: https://www.qqzhi.cc/
-      版权: /copyright/
+      版权声明: /copyright/
+      联系本人: https://www.qqzhi.cc/
+    文库:
+      全部文章: /archives/
+      全部分类: /categories/
+      全部标签: /tags/
 
   # 随机友链
-  randomlink: false # 随机友链
+  randomlink: true # 随机友链
   # 许可证
   license: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans # 许可证
 
@@ -609,8 +606,10 @@ footer:
   # 页脚信息文字
   # 请不要删除主题信息，这是对作者的尊重
   links:
-    - name: 主题
-      url: https://solitude.js.org/zh/
+    - name: 开往随机博主
+      url: https://www.travellings.cn/go
+    - name: 友链与鸣谢
+      url: /links/
     - name: 订阅
       url: /atom.xml
 # --------------------------- end ---------------------------
