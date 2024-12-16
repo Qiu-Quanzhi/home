@@ -12,6 +12,13 @@ links:
           topimg: /img/avatar.webp
           tag: 博主
           color: vip
+        - name: 张洪
+          link: https://blog.zhheo.com/
+          descr: 分享设计与科技生活
+          avatar: https://blog.zhheo.com/img/favicon4.0.webp
+          topimg: https://blog.zhheo.com/img/favicon4.0.webp
+          tag: 主题设计
+          color: vip
         - name: Solitude
           link: https://solitude.js.org/zh/
           descr: 专注于内容，提供优秀的阅读体验

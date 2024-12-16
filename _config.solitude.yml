@@ -33,6 +33,7 @@ nav:
   group:
     我的:
       个人主页: https://www.qqzhi.cc || /favicon.ico
+      站点检测: https://stats.uptimerobot.com/0tX6TgfoLR
 
   # Menu
   # 菜单
@@ -47,8 +48,8 @@ nav:
       友情链接&鸣谢: /links/ || fas fa-user-group
       开往随机博主: https://www.travellings.cn/go || fas fa-train-subway
     关于:
-      关于我: /about/ || fas fa-image-portrait
-      前往我的主页: https://www.qqzhi.cc/ || fas fa-house-user
+      关于本人: /about/ || fas fa-image-portrait
+      前往本人主页: https://www.qqzhi.cc/ || fas fa-house-user
       # 我的装备: /equipment/ || fas fa-laptop
       # 在线工具: /tlink/ || fas fa-toolbox
       # 音乐馆: /music/ || fas fa-music
@@ -115,10 +116,11 @@ hometop:
       color: "#1e3050"
   group:
     推荐文章: /tags/推荐/ || fas fa-newspaper || linear-gradient(to right,#f65,#ffbf37)
+    关于本人: /about/ || fas fa-address-card || linear-gradient(to right,#358bff,#15c6ff)
   recommendList:
     enable: true
     sup: 置顶
-    title: 关于我·现实身份
+    title: 个人介绍
     url: /about/
     img: /img/default.avif
     color: "#ddd"
@@ -300,7 +302,7 @@ post:
         img:
       # License
       # 许可证
-      license: CC BY-NC-SA 4.0
+      license: CC BY-NC-ND 4.0
       # License link
       # 许可证链接
       licenurl: /copyright/
@@ -478,13 +480,23 @@ right_menu:
   # Custom list
   # 自定义列表
   custom_list:
+    - name: 版权声明
+      click: pjax.loadUrl('/copyright/') # External links with window.open, pjax can not request cross-domain content.
+      id:
+      class:
+      icon: fas fa-copyright
     - name: 随机文章
       click: toRandomPost()
       id: menu-randomPost
       class:
-      icon: fas fa-tower-broadcast
+      icon: fas fa-dice
+    - name: 文章合集
+      click: pjax.loadUrl('/archives/')
+      id:
+      class:
+      icon: fas fa-newspaper
     - name: 分类合集
-      click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
+      click: pjax.loadUrl('/categories/') 
       id:
       class:
       icon: fas fa-clone
@@ -963,7 +975,7 @@ recent_comments:
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
 busuanzi_use: 0
