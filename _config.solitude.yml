@@ -39,9 +39,9 @@ nav:
   menu:
     首页: / # name: link
     文库: # name
-      全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
-      全部分类: /categories/ || fas fa-clone
-      全部标签: /tags/ || fas fa-tags
+      文章合集: /archives/ || fas fa-folder-closed # item name: link || icon
+      分类合集: /categories/ || fas fa-clone
+      标签合集: /tags/ || fas fa-tags
     友链:
       # 朋友圈: /moments/ || fas fa-wifi
       友情链接&鸣谢: /links/ || fas fa-user-group
@@ -465,7 +465,7 @@ related_post:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: false
+  enable: true
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: false
@@ -483,12 +483,12 @@ right_menu:
       id: menu-randomPost
       class:
       icon: fas fa-tower-broadcast
-    - name: 全部分类
+    - name: 分类合集
       click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
       id:
       class:
       icon: fas fa-clone
-    - name: 全部标签
+    - name: 标签合集
       click: pjax.loadUrl('/tags/')
       id:
       class:
@@ -577,18 +577,18 @@ footer:
     author: /favicon.ico # img url / false
     left:
       Github: https://github.com/Qiu-Quanzhi || fab fa-github # 名称: 链接 || 图标
-      Mail: mailto:i@qqzhi.cc || far fa-envelope
+      电子邮箱: mailto:i@qqzhi.cc || far fa-envelope
     right:
-      Bilibili: https://space.bilibili.com/1036651852 || fab fa-bilibili
-      Douyin: https://v.douyin.com/iUhybD4K/ || fab fa-tiktok
+      哔哩哔哩: https://space.bilibili.com/1036651852 || fab fa-bilibili
+      抖音: https://v.douyin.com/iUhybD4K/ || fab fa-tiktok
   group:
     政策:
       版权声明: /copyright/
       联系本人: https://www.qqzhi.cc/
     文库:
-      全部文章: /archives/
-      全部分类: /categories/
-      全部标签: /tags/
+      文章合集: /archives/
+      分类合集: /categories/
+      标签合集: /tags/
 
   # 随机友链
   randomlink: true # 随机友链
