@@ -3,9 +3,9 @@ title: 版权声明
 date: 2024-12-16 13:00:59
 ---
 # 版权声明
-[旅禾小栈](https://home.qqzhi.cc) 所有内容由 [旅禾Tristan](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 协议发布。作为著作权人，[旅禾Tristan](https://www.qqzhi.cc)（邱泉智）的原创作品同时亦受包括但不限于《中华人民共和国著作权法》、《世界知识产权组织版权条约》和《世界知识产权组织表演和录音制品条约》保护。
+[旅禾小栈](https://home.qqzhi.cc) 所有内容由 [旅禾Tristan](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 协议发布。作为著作权人，[旅禾Tristan](https://www.qqzhi.cc)（邱泉智）的原创作品同时亦受到包括但不限于《中华人民共和国著作权法》、《世界知识产权组织版权条约》和《世界知识产权组织表演和录音制品条约》的保护。
 
-下方附 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 协议之简要说明与法律文本，亦可点此查看[协议原文之拷贝](https://home.qqzhi.cc/LICENSE.txt)。
+下方附 CC BY-NC-SA 4.0 协议之[简要说明](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)与[法律文本](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)，亦可点此查看[协议原文之拷贝](https://home.qqzhi.cc/copyright/LICENSE.txt)。
 
 **请注意，简要说明仅强调部分核心特征和真正许可协议的部分条款，不是许可协议，也没有法律意义。您应当在使用授权作品前，仔细审阅真正完整许可协议法律文本的所有条款。**
 
