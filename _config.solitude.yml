@@ -330,17 +330,17 @@ post:
   # 打赏
   award:
     enable: true
-    appreciators: /about/ # Reward page
+    appreciators: /links/ # Reward page
     # Reward Title
     # 打赏标题
-    title: 感谢您的赞赏
-    desc: 由于您的支持，我才能够实现写作的价值。
+    title: 支持我的创作
+    desc: 感谢你的支持与鼓励！
     # Reward list
     # 打赏列表
     list:
-      - name: Github Sponsor
-        qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
-        url: https://github.com/sponsors/everfu
+      - name: 在爱发电上支持我
+        qcode: /img/afdian.svg
+        url: https://afdian.com/a/Ryoine
         color: var(--efu-black)
 
   # Share icon
