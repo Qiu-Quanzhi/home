@@ -341,7 +341,7 @@ post:
     # 打赏列表
     list:
       - name: 在爱发电上支持我
-        qcode: /img/afdian.svg
+        qcode: /img/afdian.png
         url: https://afdian.com/a/Ryoine
         color: var(--efu-black)
 
@@ -978,7 +978,7 @@ recent_comments:
 busuanzi: true
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
-busuanzi_use: 0
+busuanzi_use: 1
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
