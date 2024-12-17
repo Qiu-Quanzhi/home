@@ -273,7 +273,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - img/blog.webp # 默认图片 / default cover
+       - /img/blog.webp # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -534,7 +534,7 @@ chart: false
 
 # --------------------------- start ---------------------------
 # typeit
-typeit: true
+typeit: false
 # --------------------------- end ---------------------------
 
 ### Extended configuration
@@ -781,7 +781,7 @@ katex:
   enable: true
   # Whether to load on each page
   # 是否在每个页面加载
-  per_page: true
+  per_page: false
   # Whether to enable copy formula
   # 是否启用复制公式
   copytex: false
@@ -812,7 +812,8 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+    - <link rel="stylesheet" href="/css/style.css?1">
+    - <script src="/js/script.js?1"></script>
 
   # Insert in body
   # 插入到 body

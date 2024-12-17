@@ -1,0 +1,16 @@
+.header-anchor{
+    margin-left: .5rem !important;
+    color: hsla(225deg,15%,90%,0.32) !important;
+    opacity: 0 !important;
+    transition: color .25s, opacity 125ms !important;
+    border: none !important;
+    transform: translateY(-2.5px) !important;
+    background: none !important;
+}
+
+h1>.header-anchor:focus, h1:hover>.header-anchor, h1:target>.header-anchor,
+h2>.header-anchor:focus, h2:hover>.header-anchor, h2:target>.header-anchor {
+    opacity: 1 !important;
+    background: none !important;
+    color: #6cf !important;
+}

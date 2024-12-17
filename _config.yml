@@ -112,6 +112,38 @@ feed:
   autodiscovery: true
   template:
 
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '『』「」'
+  enable_rules:
+  disable_rules:
+  plugins:
+    - markdown-it-merge-cells
+    - name: '@renbaoshuo/markdown-it-katex'
+      options:
+        skipDelimitersCheck: true
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: true
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'right'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: '-'
+  images:
+    lazyload: true
+    prepend_root: false
+    post_asset: true
+  inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

@@ -1,15 +1,17 @@
 ---
 title: 版权声明
 date: 2024-12-16 13:00:59
+type: banner
+container: true
+aside: true
 ---
-# 版权声明
 [旅禾小栈](https://home.qqzhi.cc) **所有原创文章与相关图集等资源**内容由 [旅禾Tristan](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans) 协议发布。作为著作权人，[旅禾Tristan](https://www.qqzhi.cc)（邱泉智）的原创作品同时受到包括但不限于《中华人民共和国著作权法》、《世界知识产权组织版权条约》和《世界知识产权组织表演和录音制品条约》的保护。遵守版权协议无论是在法律上、还是在道德上都是基本的准则和义务，而且不会产生任何负面影响，每个创作者都期望建设更好的创作环境。
 
 **所有原创内容，其均在文章标题顶部，以及文章结尾注明了版权说明。**
 
-下面**协议转载**一章附有 CC BY-NC-ND 4.0 协议之[简要说明](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans)与[法律文本](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans)，亦可点此查看[协议原文之拷贝](https://home.qqzhi.cc/copyright/LICENSE.txt)。
+下面[协议转载](#协议转载)一章附有 CC BY-NC-ND 4.0 协议之[简要说明](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans)与[法律文本](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans)，亦可点此查看[协议原文之拷贝](https://home.qqzhi.cc/copyright/LICENSE.txt)。
 
-下面**简明要求**一章仅供参考，起补充说明与指导之作用，请以具体协议为准。
+下面[简明要求](#简明要求)一章仅供参考，起补充说明与指导之作用，请以具体协议为准。
 
 ## 简明要求
 

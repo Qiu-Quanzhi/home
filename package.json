@@ -28,8 +28,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-solitude": "^2.1.13",
     "hexo-wordcount": "^6.0.1",
-    "katex": "^0.16.15",
-    "markdown-it": "^14.1.0"
+    "markdown-it-merge-cells": "^2.0.0"
   },
   "devDependencies": {
     "compress": "^0.99.0",
