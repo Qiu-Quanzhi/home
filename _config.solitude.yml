@@ -436,10 +436,10 @@ lure:
 # Article expiration
 # 文章过期
 expire:
-  enable: false
-  time: 1 # days
+  enable: true
+  time: 365 # days
   position: top # top / bottom
-  text_prev: "该文章更新于 "
+  text_prev: "这篇文章更新于 "
   text_next: " 天前，说不定已经过时了……赶紧去催更吧！"
 # --------------------------- end ---------------------------
 
