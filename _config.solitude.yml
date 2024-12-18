@@ -814,6 +814,7 @@ extends:
   head:
     - <link rel="preload" href="https://s3.qjqq.cn/47/663af296b85f4.webp!color" as="image" type="image/webp">
     - <link rel="preconnect" href="https://npm.webcache.cn/">
+    - <link rel="preconnect" href="https://api.qjqq.cn/">
     - <link rel="stylesheet" href="/css/style.css?1">
     - <script src="/js/script.js?1"></script>
 
