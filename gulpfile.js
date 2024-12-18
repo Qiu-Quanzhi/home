@@ -1,16 +1,12 @@
 var gulp = require('gulp');
-var uglify = require('gulp-uglify');
-var gzip = require('gulp-gzip');
 var cleanCSS = require('gulp-clean-css');
 var htmlmin = require('gulp-html-minifier-terser');
 var htmlclean = require('gulp-htmlclean');
 var terser = require('gulp-terser');
 // 压缩js
 gulp.task('minify-js', () =>
-    gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
+    gulp.src(['./public/**/*.js']) //, '!./public/**/*.min.js'
         .pipe(terser())
-        // .pipe(uglify())
-        .pipe(gzip())
         .pipe(gulp.dest('./public'))
 )
 //压缩css
@@ -19,7 +15,6 @@ gulp.task('minify-css', () => {
         .pipe(cleanCSS({
             compatibility: '*'
         }))
-        .pipe(gzip())
         .pipe(gulp.dest('./public'));
 });
 //压缩html
@@ -41,7 +36,6 @@ gulp.task('minify-html', () => {
             minifyCSS: true, //压缩页面 CSS
             minifyURLs: true  //压缩页面URL
         }))
-        .pipe(gzip())
         .pipe(gulp.dest('./public'))
 });
 
