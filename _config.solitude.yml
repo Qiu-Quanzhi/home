@@ -367,7 +367,7 @@ post:
     # local: local color / api: api color / ave: oss average color
     mode: api
     # api address / api 地址
-    api: https://img2color.qqzhi.cc/api?img= # https://api.qjqq.cn/api/Imgcolor?img=
+    api: https://api.qjqq.cn/api/Imgcolor?img= # https://img2color.qqzhi.cc/api?img=
     # Storage / 缓存时间
     time: 43200000
   footer:
