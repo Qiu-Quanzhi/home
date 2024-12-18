@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://home.qqzhi.cc
-permalink: :category/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -144,14 +144,20 @@ markdown:
     post_asset: true
   inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
-
-
 search:
   path: search.xml
   field: all
   content: true
   format: html
+
+sitemap:
+  path: sitemap.xml
+
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: dec    #support dec(default) and hex
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
