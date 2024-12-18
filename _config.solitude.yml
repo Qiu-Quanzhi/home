@@ -287,7 +287,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - /img/blog.webp # 默认图片 / default cover
+       - /img/blog.avif # 默认图片 / default cover
     # Location
     # 位置
     locate: 中国·广东
@@ -365,7 +365,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: api
+    mode: ave
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img= # https://img2color.qqzhi.cc/api?img=
     # Storage / 缓存时间
