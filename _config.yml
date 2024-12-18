@@ -152,6 +152,9 @@ search:
 
 sitemap:
   path: sitemap.xml
+  rel: true
+  tags: true
+  categories: true
 
 abbrlink:
   alg: crc32  #support crc16(default) and crc32

@@ -48,8 +48,8 @@ nav:
       友情链接&鸣谢: /links/ || fas fa-user-group
       开往随机博主: https://www.travellings.cn/go.html || fas fa-train-subway
     关于:
-      关于本人: /about/ || fas fa-image-portrait
-      前往本人主页: https://www.qqzhi.cc/ || fas fa-house-user
+      关于我: /about/ || fas fa-image-portrait
+      前往我的主页: https://www.qqzhi.cc/ || fas fa-house-user
       # 我的装备: /equipment/ || fas fa-laptop
       # 在线工具: /tlink/ || fas fa-toolbox
       # 音乐馆: /music/ || fas fa-music
@@ -116,7 +116,7 @@ hometop:
       color: "#1e3050"
   group:
     推荐文章: /tags/推荐/ || fas fa-newspaper || linear-gradient(to right,#f65,#ffbf37)
-    关于本人: /about/ || fas fa-address-card || linear-gradient(to right,#358bff,#15c6ff)
+    关于我: /about/ || fas fa-address-card || linear-gradient(to right,#358bff,#15c6ff)
   recommendList:
     enable: true
     sup: 置顶
@@ -596,7 +596,7 @@ footer:
   group:
     政策:
       版权声明: /copyright/
-      联系本人: https://www.qqzhi.cc/
+      与我联系: https://www.qqzhi.cc/
     文库:
       文章合集: /archives/
       分类合集: /categories/
@@ -918,7 +918,7 @@ search:
     # hits:
     #   per_page: 6
   local:
-    preload: false
+    preload: true
     CDN: # url: search.xml
 # --------------------------- end ---------------------------
 
