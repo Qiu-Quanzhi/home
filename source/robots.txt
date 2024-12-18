@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /about/
+Disallow: /copyright/
+Disallow: /css/
+Disallow: /essay/
+Disallow: /img/
+Disallow: /js/
+Disallow: /links/
 
 Sitemap: https://home.qqzhi.cc/sitemap.xml
