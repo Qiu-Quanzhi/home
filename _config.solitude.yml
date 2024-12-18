@@ -46,7 +46,7 @@ nav:
     友链:
       # 朋友圈: /moments/ || fas fa-wifi
       友情链接&鸣谢: /links/ || fas fa-user-group
-      开往随机博主: https://www.travellings.cn/go || fas fa-train-subway
+      开往随机博主: https://www.travellings.cn/go.html || fas fa-train-subway
     关于:
       关于本人: /about/ || fas fa-image-portrait
       前往本人主页: https://www.qqzhi.cc/ || fas fa-house-user
@@ -60,7 +60,7 @@ nav:
     random: true # Random article / 随机文章按钮
     custom:
       - name: 开往 # 名字
-        url: https://www.travellings.cn/go # 跳转链接
+        url: https://www.travellings.cn/go.html # 跳转链接
         icon: fas fa-train-subway # 图标
         onclick: # 点击事件
         id: travellings_button # id
@@ -619,7 +619,7 @@ footer:
   # 请不要删除主题信息，这是对作者的尊重
   links:
     - name: 开往随机博主
-      url: https://www.travellings.cn/go
+      url: https://www.travellings.cn/go.html
     - name: 友链与鸣谢
       url: /links/
     - name: 订阅
