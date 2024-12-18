@@ -8,4 +8,6 @@ Disallow: /img/
 Disallow: /js/
 Disallow: /links/
 
+Disallow: /posts/
+
 Sitemap: https://home.qqzhi.cc/sitemap.xml
