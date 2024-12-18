@@ -273,7 +273,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - /img/blog.webp # 默认图片 / default cover
+       - /img/default.avif # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
