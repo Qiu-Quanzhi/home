@@ -6,4 +6,5 @@ locate:
 categories: 
 tags:
     -
+cover: /img/default.avif
 ---
