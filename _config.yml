@@ -157,8 +157,8 @@ algolia:
   chunkSize: 5000
   indexName: "home"
   fields:
-    - title
     - content:strip:truncate,0,500
+    - title
     - cover
     - categories
     - tags
