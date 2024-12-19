@@ -7,5 +7,5 @@ categories:
 tags:
     -
 cover: 
-excerpt: 
+ai_text: 
 ---

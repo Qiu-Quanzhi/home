@@ -4,5 +4,4 @@ date: {{ date }}
 updated: {{ date }}
 locate: 
 cover: 
-excerpt: 
 ---
