@@ -151,9 +151,8 @@ markdown:
 #   format: 
 
 algolia:
-  # appId: ""
-  # apiKey: ""
-  # adminApiKey: ""
+  appId: "7D8N2G1NZT"
+  apiKey: "06e4d53a4835ca6e2389ba8e3b4a88e3"
   chunkSize: 5000
   indexName: "home"
   fields:
