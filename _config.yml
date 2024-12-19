@@ -158,7 +158,7 @@ algolia:
   fields:
     - content:strip:truncate,0,500
     - title
-    - desc
+    - description
     - cover
     - categories
     - tags
