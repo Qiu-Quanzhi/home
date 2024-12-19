@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://home.qqzhi.cc
+url: https://home.qqzhi.cc
 permalink: p/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -144,11 +144,25 @@ markdown:
     post_asset: true
   inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
 
-search:
-  path: search.xml
-  field: all
-  content: true
-  format: html
+# search:
+#   path: search.xml
+#   field: all
+#   content: true
+#   format: 
+
+algolia:
+  # appId: ""
+  # apiKey: ""
+  # adminApiKey: ""
+  chunkSize: 5000
+  indexName: "home"
+  fields:
+    - title
+    - content:strip:truncate,0,500
+    - cover
+    - categories
+    - tags
+    - permalink
 
 sitemap:
   path: sitemap.xml

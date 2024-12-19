@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "clean": "hexo clean",
-    "build": "npm i && hexo g && npx gulp",
+    "build": "npm i && hexo g && npx gulp && hexo algolia",
+    "algolia": "npx --env-file=algolia.env hexo algolia",
     "dev": "hexo server",
     "preview": "hexo server -s"
   },
@@ -15,6 +16,7 @@
     "@renbaoshuo/markdown-it-katex": "^2.0.2",
     "hexo": "^7.3.0",
     "hexo-abbrlink": "^2.2.1",
+    "hexo-algoliasearch": "^2.0.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
