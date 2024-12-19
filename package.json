@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "hexo clean",
-    "build": "npm i && hexo g && npx gulp && hexo algolia -n",
+    "build": "npm i && hexo g && npx gulp && hexo algolia",
     "dev": "hexo server",
     "preview": "hexo server -s"
   },
