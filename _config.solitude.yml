@@ -1040,7 +1040,7 @@ CDN:
   # 直接覆盖默认 CDN 链接（优先级最高）
   options:
     # fontawesome: https://cdnjs.webstatic.cn/ajax/libs/font-awesome/6.7.2/css/all.min.css
-    # # algolia_search:
+    algolia_search: https://cdnjs.webstatic.cn/ajax/libs/algoliasearch/5.18.0/algoliasearch.umd.min.js
     # # instantsearch:
     # pjax: https://cdnjs.webstatic.cn/ajax/libs/pjax/0.2.8/pjax.min.js
     # # twikoo:
