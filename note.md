@@ -1,0 +1,1 @@
+ffmpeg -i ---  -compression_level 0 -quality 80 -preset photo -vf scale=512:341 ---

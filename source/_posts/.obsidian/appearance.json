@@ -1,0 +1,10 @@
+{
+  "enabledCssSnippets": [
+    "Custom Rainbow Colors",
+    "Extended Colorschemes"
+  ],
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "#66ccff",
+  "monospaceFontFamily": "JetBarins Mono",
+  "textFontFamily": "JetBrains Mono"
+}

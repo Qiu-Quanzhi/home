@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "aefac0a610ad0218",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a7f6cf44fdba2b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56eda8fff5f28dc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "夕拾散记×信宜中学.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "夕拾散记×信宜中学"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5348a80ac417c60a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d655d2355e59411",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30eeb6bcacad4a63",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f4f829bcbdce0256",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "0a5e53c535c7a6af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "78f244dee22fa136",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3d57819a8cac952",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e8f776519f88949",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "78d284e83caba03b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "4f650fee8ded89b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "fce3f4187b5683ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "dcbe187d908ac4f6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-projects:打开项目": false,
+      "omnisearch:Omnisearch": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
+    }
+  },
+  "active": "56eda8fff5f28dc3",
+  "lastOpenFiles": [
+    "夕拾散记×信宜中学/photo-3.avif",
+    "夕拾散记×信宜中学/photo-6.avif",
+    "夕拾散记×信宜中学/photo-5.avif",
+    "夕拾散记×信宜中学/photo-4.avif",
+    "夕拾散记×信宜中学/photo-2.avif",
+    "夕拾散记×信宜中学/photo-1.avif",
+    "夕拾散记×信宜中学/map-5.avif",
+    "夕拾散记×信宜中学/map-4.avif",
+    "夕拾散记×信宜中学/map-3.avif",
+    "夕拾散记×信宜中学/map-2.avif",
+    "夕拾散记×信宜中学/map-1.png",
+    "夕拾散记×信宜中学.md",
+    "夕拾散记×信宜中学 - 副本",
+    "夕拾散记×信宜中学",
+    "一字一世界·欢迎来到我的博客！.md",
+    "博客/2023/夕拾散记×信宜中学.md",
+    "博客/2024/一字一世界·欢迎来到我的博客！.md",
+    "文章/一字一世界·欢迎来到我的博客！.md",
+    "博客/2024",
+    "文章/新建文件夹",
+    "文章/夕拾散记×信宜中学.md",
+    "博客/2023",
+    "博客",
+    "2024-12-20.md"
+  ]
+}

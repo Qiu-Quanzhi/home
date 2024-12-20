@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "date_first_meet": "date",
+    "初见": "date",
+    "上次会期": "date",
+    "初次会期": "date",
+    "生日": "date",
+    "电话": "multitext",
+    "QQ": "multitext",
+    "微信": "multitext",
+    "地区": "multitext"
+  }
+}
