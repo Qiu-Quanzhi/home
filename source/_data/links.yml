@@ -1,35 +1,52 @@
-banner_suffix: 
+banner_suffix:
 links:
-   - class_name: 本站
-     descr: 参与开发与设计，提供灵感与捐助
-     type: card
-     suffix: 
-     link_list:
-        - name: 旅禾Tristan
-          link: https://www.qqzhi.cc
-          descr: 欢迎来到旅禾小栈！
-          avatar: /img/avatar.webp
-          topimg: /img/avatar.webp
-          tag: 博主
-          color: vip
-        - name: 张洪Heo
-          link: https://blog.zhheo.com/
-          descr: 分享设计与科技生活
-          avatar: https://blog.zhheo.com/img/favicon4.0.webp
-          topimg: https://blog.zhheo.com/img/favicon4.0.webp
-          tag: 主题设计
-          color: vip
-        - name: Solitude
-          link: https://solitude.js.org/zh/
-          descr: 专注于内容，提供优秀的阅读体验
-          avatar: https://solitude.js.org/favicon.svg
-          topimg: https://solitude.js.org/favicon.svg
-          tag: 主题框架
+  - class_name: 本站
+    descr: 参与开发与设计，提供灵感与捐助
+    type: card
+    suffix:
+    link_list:
+      - name: 旅禾Tristan
+        link: https://www.qqzhi.cc
+        descr: 欢迎来到旅禾小栈！
+        avatar: /img/avatar.webp
+        topimg: /img/avatar.webp
+        tag: 博主
+        color: vip
+      - name: 张洪Heo
+        link: https://blog.zhheo.com/
+        descr: 分享设计与科技生活
+        avatar: https://blog.zhheo.com/img/favicon4.0.webp
+        topimg: https://blog.zhheo.com/img/favicon4.0.webp
+        tag: 主题设计
+        color: vip
+      - name: Solitude
+        link: https://solitude.js.org/zh/
+        descr: 专注于内容，提供优秀的阅读体验
+        avatar: https://solitude.js.org/favicon.svg
+        topimg: https://solitude.js.org/favicon.svg
+        tag: 主题框架
+  - class_name: 本人参与&贡献的项目
+    descr: 参加了开发与编写工作的项目
+    type: card
+    suffix:
+    link_list:
+      - name: Solitude
+        link: https://solitude.js.org/zh/
+        descr: 专注于内容，提供优秀的阅读体验
+        avatar: https://solitude.js.org/favicon.svg
+        topimg: https://solitude.js.org/favicon.svg
+        tag: 主题框架
+      - name: OI Wiki
+        link: https://oi-wiki.org/
+        descr: 某大型游戏线上攻略，内含炫酷算术魔法
+        avatar: https://oi-wiki.org/favicon.ico
+        topimg: https://oi-wiki.org/favicon.ico
+        tag: 信息学竞赛知识库
 
   #  - class_name: 推荐 # 分类名称
   #    descr: 参与本站开发、提供设计灵感、捐助本站的优秀博主 # 分类简介
   #    type: card  # 显示方式，有两种 card / item
-  #    suffix: 
+  #    suffix:
   #    link_list:
   #       - name: isYangs # 友链名称
   #         link: https://isyangs.cn # 友链地址
@@ -41,7 +58,7 @@ links:
   #  - class_name: 技术
   #    descr: 技术知识为主的博客
   #    type: item
-  #    suffix: 
+  #    suffix:
   #    link_list:
   #      - name: isYangs # 友链名称
   #        link: https://isyangs.cn # 友链地址
