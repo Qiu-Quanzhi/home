@@ -18,3 +18,7 @@ h2>.header-anchor:focus, h2:hover>.header-anchor, h2:target>.header-anchor {
     background: none !important;
     color: #6cf !important;
 }
+
+li:before {
+    font-weight: bolder;
+}
