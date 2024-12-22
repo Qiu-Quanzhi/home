@@ -6,7 +6,7 @@
 title: 旅禾小栈
 subtitle: '浮云一别后，流水十年间'
 description: '旅禾小栈·未名岛静候你的光临（博客文章专栏主页）'
-keywords: 未名岛,邱泉智,旅禾,旅禾小栈,旅禾Tristan,Qiu Quanzhi,主页,博客,blog
+keywords: 邱泉智,旅禾,旅禾小栈,旅禾Tristan,Qiu Quanzhi,主页,博客,blog
 author: 旅禾Tristan
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -135,7 +135,7 @@ markdown:
     permalink: true
     permalinkClass: 'header-anchor'
     permalinkSide: 'right'
-    permalinkSymbol: '¶'
+    permalinkSymbol: ''
     case: 0
     separator: '-'
   images:

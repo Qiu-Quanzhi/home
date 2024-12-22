@@ -3,10 +3,10 @@ title: 版权声明
 date: 2024-12-16 13:00:59
 type: banner
 cover: /img/blog.hq.webp
-container: true
 aside: true
+toc: true
 ---
-[旅禾小栈](https://home.qqzhi.cc) **所有原创文章与相关图集等资源**内容由 [旅禾Tristan](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans) 协议发布。作为著作权人，[旅禾Tristan](https://www.qqzhi.cc)（邱泉智）的原创作品同时受到包括但不限于《中华人民共和国著作权法》、《世界知识产权组织版权条约》和《世界知识产权组织表演和录音制品条约》的保护。遵守版权协议无论是在法律上、还是在道德上都是基本的准则和义务，而且不会产生任何负面影响，每个创作者都期望建设更好的创作环境。
+[旅禾小栈](https://home.qqzhi.cc) **所有原创文章与相关图集等资源**内容由 [旅禾Tristan](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans) 协议发布。作为著作权人，[旅禾Tristan](https://www.qqzhi.cc)（邱泉智）的原创作品同时受到包括但不限于《中华人民共和国著作权法》、《世界知识产权组织版权条约》和《世界知识产权组织表演和录音制品条约》的保护。遵守版权协议无论是在法律上、还是在道德上都是基本的准则和义务，也相信每一位创作者都期望共同建设更好的创作环境。
 
 **所有原创内容，其均在文章标题顶部，以及文章结尾注明了版权说明。**
 
@@ -38,25 +38,25 @@ aside: true
 
 {% blockquote 署名—非商业性使用—禁止演绎 4.0 协议国际版 简要说明 https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans CC BY-NC-ND 4.0 Deed %}
 
-## 您可以自由地：
+### 您可以自由地
 
 1. **共享** — 在任何媒介以任何形式复制、发行本作品
 2. 只要你遵守许可协议条款，许可人就无法收回你的这些权利。
 
-## 惟须遵守下列条件：
+### 惟须遵守下列条件
 
 1. **署名** — 您必须给出 [适当的署名](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-appropriate-credit) ，提供指向本许可协议的链接，同时 [标明是否（对原始作品）作了修改](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-indicate-changes) 。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
 2. **非商业性使用** — 您不得将本作品用于 [商业目的](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-commercial-purposes) 。
 3. **禁止演绎** — 如果您 [再混合、转换、或者基于该作品创作](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-some-kinds-of-mods) ，您不可以分发修改作品。
 4. **没有附加限制** — 您不得适用法律术语或者 [技术措施](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-technological-measures) 从而限制其他人做许可协议允许的事情。
 
-## 声明：
+### 声明
 
 您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 [例外或限制](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-exception-or-limitation) 所允许。
 
 不提供担保。许可协议可能不会给与您意图使用的所必须的所有许可。例如，其他权利比如 [形象权、隐私权或人格权](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-publicity-privacy-or-moral-rights) 可能限制您如何使用作品。
 
-## 脚注
+### 脚注
 
 - **适当的署名** — 如果已提供，您必须提供创作者和署名者的姓名或名称、版权标识、许可协议标识、免责标识和作品链接。先于4.0版本的CC许可协议也要求您在已经提供的情况下提供作品的名称，可能还有其他轻微差别。
     
@@ -91,7 +91,7 @@ aside: true
 以下是 [CC BY-NC-ND 4.0 协议之法律文本](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans)。
 
 {% blockquote 署名—非商业性使用—禁止演绎 4.0 协议国际版 https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans CC BY-NC-ND 4.0 %}
-## 署名—非商业性使用—禁止演绎 4.0 协议国际版
+### 署名—非商业性使用—禁止演绎 4.0 协议国际版
 
 通过行使本协议所授予的权利（定义如下），您接受并同意受到知识共享(Creative Commons)署名—非商业性使用—禁止演义4.0国际公共许可协议（以下简称“本公共许可协议”）的约束。从合同解释的角度来看，您获得授权的对价是接受本协议的条款，许可人授予您这些权利的对价是可以通过采用本协议条款发布授权作品(material)而获得利益。
 
