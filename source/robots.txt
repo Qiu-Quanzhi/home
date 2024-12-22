@@ -7,6 +7,8 @@ Disallow: /essay/
 Disallow: /img/
 Disallow: /js/
 Disallow: /links/
+Disallow: /tags/
+Disallow: /categories/
 
 Disallow: /posts/
 
