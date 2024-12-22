@@ -1,9 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /about/
-Disallow: /copyright/
 Disallow: /css/
-Disallow: /essay/
 Disallow: /img/
 Disallow: /js/
 Disallow: /links/
