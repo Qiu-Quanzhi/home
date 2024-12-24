@@ -1,12 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /css/
-Disallow: /img/
-Disallow: /js/
 Disallow: /links/
 Disallow: /tags/
 Disallow: /categories/
-
-Disallow: /posts/
 
 Sitemap: https://home.qqzhi.cc/sitemap.xml
