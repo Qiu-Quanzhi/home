@@ -19,8 +19,8 @@
 # 网站信息
 site:
   name:
-    class: text # text / img / img
-    custom: 旅禾小栈 /favicon.ico # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    class: text # text / i_class / img
+    custom: 旅禾小栈 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: /img/avatar.webp # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
