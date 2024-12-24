@@ -754,7 +754,7 @@ memorial:
 # --------------------------- start ---------------------------
 # OpenGraph
 OpenGraph:
-  enable: false
+  enable: true
   options:
     # twitter_card:
     # twitter_image:
