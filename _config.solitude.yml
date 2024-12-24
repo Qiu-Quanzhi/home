@@ -816,6 +816,7 @@ extends:
     - <link rel="preconnect" href="https://npm.webcache.cn/">
     - <link rel="preconnect" href="https://api.qjqq.cn/">
     - <link rel="stylesheet" href="/css/style.css?1">
+    - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     - <script src="/js/script.js?1"></script>
 
   # Insert in body
