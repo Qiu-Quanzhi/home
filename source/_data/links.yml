@@ -27,7 +27,7 @@ links:
         tag: 主题框架
   - class_name: 本人参与&贡献的项目
     descr: 参加了开发与编写工作的项目
-    type: card
+    type: item
     suffix:
     link_list:
       - name: Solitude
@@ -35,32 +35,35 @@ links:
         descr: 专注于内容，提供优秀的阅读体验
         avatar: https://solitude.js.org/favicon.svg
         topimg: https://solitude.js.org/favicon.svg
-        tag: 主题框架
+        tag: Hexo主题
       - name: OI Wiki
         link: https://oi-wiki.org/
         descr: 某大型游戏线上攻略，内含炫酷算术魔法
         avatar: https://oi-wiki.org/favicon.ico
         topimg: https://oi-wiki.org/favicon.ico
-        tag: 信息学竞赛知识库
-
-  #  - class_name: 推荐 # 分类名称
-  #    descr: 参与本站开发、提供设计灵感、捐助本站的优秀博主 # 分类简介
-  #    type: card  # 显示方式，有两种 card / item
-  #    suffix:
-  #    link_list:
-  #       - name: isYangs # 友链名称
-  #         link: https://isyangs.cn # 友链地址
-  #         descr: 一个前端Bug构造师的博客 # 友链简介
-  #         avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-  #         topimg: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 如果是card模式下，将显示
-  #         tag: 博主
-  #         color: vip
-  #  - class_name: 技术
-  #    descr: 技术知识为主的博客
-  #    type: item
-  #    suffix:
-  #    link_list:
-  #      - name: isYangs # 友链名称
-  #        link: https://isyangs.cn # 友链地址
-  #        avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-  #        descr: 一个前端Bug构造师的博客 # 友链简介
+        tag: 信竞知识库
+  - class_name: 好友们
+    descr: 
+    type: card
+    suffix:
+    link_list:
+      - name: 卑微的delta
+        link: https://space.bilibili.com/1544236813
+        descr: 
+        avatar: https://i1.hdslb.com/bfs/face/5872c4bc8e2712b29337be4725d0544e02932899.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+        topimg: https://i1.hdslb.com/bfs/face/5872c4bc8e2712b29337be4725d0544e02932899.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+      - name: TaiDeng77
+        link: https://space.bilibili.com/393593344
+        descr: 
+        avatar: https://i1.hdslb.com/bfs/face/6a47e8236c9965eebe9caad59e80ed69c2559557.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+        topimg: https://i1.hdslb.com/bfs/face/6a47e8236c9965eebe9caad59e80ed69c2559557.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+      - name: 通辽汗国反卷专员
+        link: https://space.bilibili.com/1718506008
+        descr: 
+        avatar: https://i0.hdslb.com/bfs/face/71f2db8829e8ed79f0c5440c4c293b957df2b5e2.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+        topimg: https://i0.hdslb.com/bfs/face/71f2db8829e8ed79f0c5440c4c293b957df2b5e2.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+      - name: AR-Daren
+        link: https://space.bilibili.com/1748120521
+        descr: 
+        avatar: https://i1.hdslb.com/bfs/face/d59db543649e533bbda77e302b1d45987e8c4b6a.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+        topimg: https://i1.hdslb.com/bfs/face/d59db543649e533bbda77e302b1d45987e8c4b6a.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif

@@ -92,27 +92,42 @@ hometop:
       color: "#42d392"
     - title: 旅行
       icon: fas fa-earth-asia
-      color: "#66ccff"
-    - title: 摄影
-      icon: fas fa-camera
-      color: "#66ccff"
-    - title: 编程
-      icon: fas fa-code
-      color: "#66ccff"
-    - title: 理论
-      icon: fas fa-graduation-cap
-      color: "#66ccff"
-    - title: 翻译
-      icon: fas fa-language
-      color: "#66ccff"
+      color: "#78edc4"
     - title: 骑行
       icon: fas fa-person-biking
-      color: "#66ccff"
+      color: "#78edc4"
+    - title: 摄影
+      icon: fas fa-camera
+      color: "#78edc4"
+    - title: 开发
+      icon: fas fa-code
+      color: "#064882"
+    - title: 学术
+      icon: fas fa-graduation-cap
+      color: "#064882"
+    - title: OI
+      icon: fas fa-laptop-code
+      color: "#064882"
+    - title: 翻译
+      icon: fas fa-language
+      color: "#069968"
+    - title: 设计
+      icon: fas fa-laptop-file
+      color: "#069968"
+    - title: 写作
+      icon: fas fa-pen-to-square
+      color: "#069968"
+    - title: 社区
+      icon: fas fa-comments
+      color: "#069968"
     - title: 哔哩哔哩
       icon: fab fa-bilibili
       color: "#00a1d6"
     - title: Github
       icon: fab fa-github-alt
+      color: "#1e3050"
+    - title: X
+      icon: fab fa-x-twitter
       color: "#1e3050"
   group:
     推荐文章: /tags/推荐/ || fas fa-newspaper || linear-gradient(to right,#f65,#ffbf37)
@@ -818,6 +833,7 @@ extends:
     - <link rel="stylesheet" href="/css/style.css?1">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     - <script src="/js/script.js?1"></script>
+    - <meta name="referrer" content="never">
 
   # Insert in body
   # 插入到 body
