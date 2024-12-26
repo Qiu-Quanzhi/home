@@ -40,8 +40,8 @@ links:
       - name: OI Wiki
         link: https://oi-wiki.org/
         descr: 某大型游戏线上攻略，内含炫酷算术魔法
-        avatar: https://oi-wiki.org/favicon.ico
-        topimg: https://oi-wiki.org/favicon.ico
+        avatar: /img/faces/OI Wiki.avif
+        topimg: /img/faces/OI Wiki.avif
         tag: 信竞知识库
   - class_name: 好友们
     descr: 
