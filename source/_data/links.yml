@@ -1,4 +1,5 @@
 banner_suffix:
+swiper: true
 links:
   - class_name: 本站
     descr: 参与开发与设计，提供灵感与捐助
@@ -50,20 +51,20 @@ links:
       - name: 卑微的delta
         link: https://space.bilibili.com/1544236813
         descr: 
-        avatar: https://i1.hdslb.com/bfs/face/5872c4bc8e2712b29337be4725d0544e02932899.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
-        topimg: https://i1.hdslb.com/bfs/face/5872c4bc8e2712b29337be4725d0544e02932899.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+        avatar: /img/faces/卑微的delta.avif
+        topimg: /img/faces/卑微的delta.avif
       - name: TaiDeng77
         link: https://space.bilibili.com/393593344
         descr: 
-        avatar: https://i1.hdslb.com/bfs/face/6a47e8236c9965eebe9caad59e80ed69c2559557.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
-        topimg: https://i1.hdslb.com/bfs/face/6a47e8236c9965eebe9caad59e80ed69c2559557.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+        avatar: /img/faces/TaiDeng77.avif
+        topimg: /img/faces/TaiDeng77.avif
       - name: 通辽汗国反卷专员
         link: https://space.bilibili.com/1718506008
         descr: 
-        avatar: https://i0.hdslb.com/bfs/face/71f2db8829e8ed79f0c5440c4c293b957df2b5e2.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
-        topimg: https://i0.hdslb.com/bfs/face/71f2db8829e8ed79f0c5440c4c293b957df2b5e2.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
-      - name: AR-Daren
+        avatar: /img/faces/通辽汗国反卷专员.avif
+        topimg: /img/faces/通辽汗国反卷专员.avif
+      - name: Daren
         link: https://space.bilibili.com/1748120521
         descr: 
-        avatar: https://i1.hdslb.com/bfs/face/d59db543649e533bbda77e302b1d45987e8c4b6a.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
-        topimg: https://i1.hdslb.com/bfs/face/d59db543649e533bbda77e302b1d45987e8c4b6a.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif
+        avatar: /img/faces/Daren.avif
+        topimg: /img/faces/Daren.avif
