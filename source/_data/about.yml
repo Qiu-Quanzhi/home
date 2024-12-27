@@ -103,14 +103,13 @@ skills: # Add as needed
 personalities:
   tips: 性格
   title: 指挥官
-  color: "#56a178"
+  color: "#88619a"
   type: ENTJ-A
-  image: /img/ENTJ.webp
+  image: /img/ENTJ.webp # https://www.16personalities.com/static/images/personality-types/avatars/email/large/ENTJ_male.png
   link: https://www.16personalities.com/
-  linkText: 16personalities
+  linkText: 16Personalities
   typeLink: https://www.16personalities.com/ch/ENTJ-人格
-  typeName: 指挥官人格
-  myphoto: /img/entj-relationships.svg
+  typeName: 指挥官人格 # https://www.16personalities.com/static/images/type-report/entj-relationships.svg
 # expertise:
 #   title: 专长
 #   prefix: 数学, 物理, 化学
@@ -134,7 +133,7 @@ likes:
     bg: https://7.isyangs.cn/66/6738b3606d9d3-66.webp
     tips: 兴趣偏好
     title: 数码科技
-    subtips: 手机、电脑软硬件
+    subtips: 求真务实，注重技术落地
   - type: like-music
     bg: /img/minecraft.webp
     tips: 游戏偏好
