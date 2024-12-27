@@ -110,7 +110,7 @@ personalities:
   linkText: 16personalities
   typeLink: https://www.16personalities.com/ch/ENTJ-人格
   typeName: 指挥官人格
-  myphoto: https://www.16personalities.com/static/animations/type-descriptions/introductions/commander.svg
+  myphoto: /img/entj-relationships.svg
 # expertise:
 #   title: 专长
 #   prefix: 数学, 物理, 化学
