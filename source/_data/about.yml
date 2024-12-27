@@ -101,7 +101,7 @@ skills: # Add as needed
       color: "#1e3050"
       
 personalities:
-  tips: 性格
+  tips: 人格
   title: 指挥官
   color: "#88619a"
   type: ENTJ-A
@@ -109,7 +109,8 @@ personalities:
   link: https://www.16personalities.com/
   linkText: 16Personalities
   typeLink: https://www.16personalities.com/ch/ENTJ-人格
-  typeName: 指挥官人格 # https://www.16personalities.com/static/images/type-report/entj-relationships.svg
+  typeName: 指挥官人格
+  myphoto: /img/entj-relationships.svg # https://www.16personalities.com/static/images/type-report/entj-relationships.svg
 # expertise:
 #   title: 专长
 #   prefix: 数学, 物理, 化学
