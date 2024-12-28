@@ -1,0 +1,4 @@
+[submodule "themes/solitude"]
+	path = themes/solitude
+	url = https://github.com/Qiu-Quanzhi/hexo-theme-solitude.git
+	branch = dev
