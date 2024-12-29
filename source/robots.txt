@@ -3,5 +3,6 @@ Allow: /
 Disallow: /links/
 Disallow: /tags/
 Disallow: /categories/
+Disallow: /img/
 
 Sitemap: https://home.qqzhi.cc/sitemap.xml
