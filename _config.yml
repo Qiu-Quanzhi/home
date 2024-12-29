@@ -174,6 +174,14 @@ abbrlink:
   alg: crc32  #support crc16(default) and crc32
   rep: hex    #support dec(default) and hex
 
+nofollow:
+  enable: true
+  field: post
+  exclude:
+    - 'www.qqzhi.cc'
+    - 'home.qqzhi.cc'
+    - 'app.qqzhi.cc'
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
