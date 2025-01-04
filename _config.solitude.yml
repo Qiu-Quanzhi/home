@@ -421,7 +421,7 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: "PingFang SC, Hiragino Sans GB, Microsoft YaHei"
+  font-family: "LXGW Wenkai GB Screen, PingFang SC, Hiragino Sans GB, Microsoft YaHei"
   # Code font
   # 代码字体
   code-font-family: '"monospace", monospace'
@@ -830,9 +830,10 @@ extends:
     - <link rel="preload" href="https://s3.qjqq.cn/47/663af296b85f4.webp!color" as="image" type="image/webp">
     - <link rel="preconnect" href="https://npm.webcache.cn/">
     - <link rel="preconnect" href="https://api.qjqq.cn/">
+    - <script src="/js/script.js?1"></script>
     - <link rel="stylesheet" href="/css/style.css?1">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    - <script src="/js/script.js?1"></script>
+    - <link rel="stylesheet" href="https://cdnjs.webstatic.cn/ajax/libs/lxgw-wenkai-screen-web/1.501.0/lxgwwenkaigbscreen/result.css">
 
   # Insert in body
   # 插入到 body
