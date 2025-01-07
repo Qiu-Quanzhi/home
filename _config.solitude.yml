@@ -72,7 +72,7 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 分装学识 <br> 分装快乐
+    title: 分装学识<br>分装快乐
     desc: 欢迎来到旅禾小栈！
     icon:
     - title: C++
@@ -830,8 +830,8 @@ extends:
     - <link rel="preload" href="https://s3.qjqq.cn/47/663af296b85f4.webp!color" as="image" type="image/webp">
     - <link rel="preconnect" href="https://npm.webcache.cn/">
     - <link rel="preconnect" href="https://api.qjqq.cn/">
-    - <script src="/js/script.js?1"></script>
-    - <link rel="stylesheet" href="/css/style.css?1">
+    - <script src="/js/script.js"></script>
+    - <link rel="stylesheet" href="/css/style.css">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     - <link rel="stylesheet" href="https://cdnjs.webstatic.cn/ajax/libs/lxgw-wenkai-screen-web/1.501.0/lxgwwenkaigbscreen/result.css">
     - <link rel="stylesheet" href="https://npm.webcache.cn/@fontsource/jetbrains-mono@5.1.2/index.css">
@@ -1060,5 +1060,21 @@ CDN:
   # custom_format: https://fastly.jsdelivr.net/npm/${name}@${version}/${min_file} # 自定义格式
   # 直接覆盖默认 CDN 链接（优先级最高）
   options:
-
+    # algolia_search:
+    # instantsearch:
+    # pjax:
+    # twikoo:
+    # waline_js:
+    # waline_css:
+    # katex:
+    # katex_copytex:
+    # lazyload:
+    aplayer_css: "/css/style.css"
+    aplayer_js: "/js/script.js"
+    meting_js: "/js/script.js"
+    # pace_js:
+    # swiper_css:
+    # swiper_js:
+    # busuanzi_js:
+    # snackbar_js:
 # --------------------------- end ---------------------------

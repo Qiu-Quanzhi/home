@@ -6,7 +6,12 @@ var terser = require('gulp-terser');
 // 压缩js
 gulp.task('minify-js', () =>
     gulp.src(['./public/**/*.js']) //, '!./public/**/*.min.js'
-        .pipe(terser())
+        .pipe(terser({
+            compress: {
+                drop_console: true, // 删除console
+                drop_debugger: true
+            }
+        }))
         .pipe(gulp.dest('./public'))
 )
 //压缩css
