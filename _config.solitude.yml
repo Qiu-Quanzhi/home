@@ -72,8 +72,8 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 分装学识 <br> 分装快乐 # 标题
-    url: 欢迎来到旅禾小栈！ # 小字
+    title: 分装学识 <br> 分装快乐
+    desc: 欢迎来到旅禾小栈！
     icon:
     - title: C++
       icon: fab fa-c
