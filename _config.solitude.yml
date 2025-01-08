@@ -43,13 +43,13 @@ nav:
       文章合集: /archives/ || fas fa-folder-closed # item name: link || icon
       分类合集: /categories/ || fas fa-clone
       标签合集: /tags/ || fas fa-tags
-    友链:
+    友链: /links/
       # 朋友圈: /moments/ || fas fa-wifi
-      友情链接&鸣谢: /links/ || fas fa-user-group
-      开往随机博主: https://www.travellings.cn/go.html || fas fa-train-subway
-    关于:
-      关于我: /about/ || fas fa-image-portrait
-      前往我的主页: https://www.qqzhi.cc/ || fas fa-house-user
+      # 友情链接&鸣谢: /links/ || fas fa-user-group
+      # 开往随机博主: https://www.travellings.cn/go.html || fas fa-train-subway
+    关于: /about/
+      # 关于我: /about/ || fas fa-image-portrait
+      # 前往我的主页: https://www.qqzhi.cc/ || fas fa-house-user
       # 我的装备: /equipment/ || fas fa-laptop
       # 在线工具: /tlink/ || fas fa-toolbox
       # 音乐馆: /music/ || fas fa-music
@@ -679,7 +679,7 @@ capsule:
 # 快捷菜单
 # 使用 shift + ? 打开
 keyboard:
-  enable: true
+  enable: false
   list:
     - name: 关闭快捷菜单
       key: K

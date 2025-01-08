@@ -8,7 +8,7 @@ links:
     link_list:
       - name: 旅禾Tristan
         link: https://www.qqzhi.cc
-        descr: 欢迎来到旅禾小栈！
+        descr: 前往我的个人主页
         avatar: /img/avatar.webp
         topimg: /img/avatar.webp
         tag: 博主
@@ -21,10 +21,10 @@ links:
         tag: 主题设计
         color: vip
       - name: Solitude
-        link: https://solitude.js.org/zh/
+        link: https://solitude.js.org/
         descr: 专注于内容，提供优秀的阅读体验
-        avatar: https://solitude.js.org/favicon.svg
-        topimg: https://solitude.js.org/favicon.svg
+        avatar: /img/faces/solitude.avif
+        topimg: /img/faces/solitude.avif
         tag: 主题框架
   - class_name: 本人参与&贡献的项目
     descr: 参加了开发与编写工作的项目
@@ -32,10 +32,10 @@ links:
     suffix:
     link_list:
       - name: Solitude
-        link: https://solitude.js.org/zh/
+        link: https://solitude.js.org/
         descr: 专注于内容，提供优秀的阅读体验
-        avatar: https://solitude.js.org/favicon.svg
-        topimg: https://solitude.js.org/favicon.svg
+        avatar: /img/faces/solitude.avif
+        topimg: /img/faces/solitude.avif
         tag: Hexo主题
       - name: OI Wiki
         link: https://oi-wiki.org/

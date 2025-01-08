@@ -9,10 +9,10 @@ authorinfo:
     - 积极进取 📈
   image: /img/avatar.webp
 title: 关于我
-contentinfo: # Top personal information display
+contentinfo:
   sup: 你好呀，很高兴认识你 （＾v＾）/
-  name: 我是邱泉智 # Name
-  title: 学生, 博主 # Introduction
+  name: 我是邱泉智
+  title: 学生, 博主
   tip: 追求卓越
   slogan: 我还是……
   mask:
