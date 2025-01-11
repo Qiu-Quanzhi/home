@@ -633,8 +633,6 @@ footer:
   # 页脚信息文字
   # 请不要删除主题信息，这是对作者的尊重
   links:
-    - name: 开往随机博主
-      url: https://www.travellings.cn/go.html
     - name: 友链与鸣谢
       url: /links/
     - name: 订阅
