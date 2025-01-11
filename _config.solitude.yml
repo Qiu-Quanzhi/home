@@ -187,7 +187,7 @@ aside:
       noon: 🍲 午休时间
       afternoon: 🌞 下午好
       night: 🌙 晚上好，记得早点休息
-      goodnight: 🛏️ 晚安
+      goodnight: ✨ 晚安
     # Style 2 is invalid, Triggered when sayhello is clicked.
     # Style 2 无效, 点击 sayhello 时触发
     sayhello2:
@@ -599,7 +599,7 @@ rightside:
 # Footer
 # 页脚
 footer:
-  # 信息社交图标
+  # 社交图标
   information:
     author: /favicon.ico # img url / false
     left:
@@ -619,8 +619,6 @@ footer:
 
   # 随机友链
   randomlink: true # 随机友链
-  # 许可证
-  license: /copyright/ # 许可证
 
   # 备案
   beian:
@@ -637,6 +635,13 @@ footer:
       url: /links/
     - name: 订阅
       url: /atom.xml
+    - name: 版权声明
+      url: /copyright/
+      icon:
+        - fab fa-creative-commons
+        - fab fa-creative-commons-by
+        - fab fa-creative-commons-nc
+        - fab fa-creative-commons-nd
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -978,6 +983,7 @@ envelope:
 brevity:
   enable: true
   home_mini: true
+  music: false
   page: /essay/
   style: 1
   strip: 30
@@ -1067,9 +1073,9 @@ CDN:
     # katex:
     # katex_copytex:
     # lazyload:
-    aplayer_css: "/css/style.css"
-    aplayer_js: "/js/script.js"
-    meting_js: "/js/script.js"
+    # aplayer_css:
+    # aplayer_js:
+    # meting_js:
     # pace_js:
     # swiper_css:
     # swiper_js:
