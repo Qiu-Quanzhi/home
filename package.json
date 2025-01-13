@@ -7,7 +7,7 @@
     "generate": "hexo generate",
     "preview": "hexo server -s",
     "server": "hexo server",
-    "build": "npm i && hexo g && npx gulp && hexo algolia"
+    "build": "pnpm i && hexo g && pnpm exec gulp && hexo algolia"
   },
   "hexo": {
     "version": "7.3.0"
