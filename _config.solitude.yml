@@ -175,7 +175,7 @@ aside:
       img: /img/avatar.webp # url
       sticker: # url, 24x24 size
     url: /about/ # link / 点击头像跳转链接
-    background:  https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
+    background:  /img/bg.card.webp # Background image(Invalid if style is 0)
     # Content(Invalid if style is 0)
     # 内容(Style 0 无效)
     content:  欢迎光临
@@ -197,19 +197,20 @@ aside:
     # social
     # 社交信息图标
     information:
-      Github: https://github.com/Qiu-Quanzhi || fab fa-github # Name: link || icon
-      Bilibili: https://space.bilibili.com/1036651852 || fab fa-bilibili
-      Mail: mailto:i@qqzhi.cc || far fa-envelope
+      个人主页: https://www.qqzhi.cc || fas fa-house-chimney
+      Github: https://github.com/Qiu-Quanzhi || fab fa-github
+      哔哩哔哩: https://space.bilibili.com/1036651852 || fab fa-bilibili
+      电子邮箱: mailto:i@qqzhi.cc || far fa-envelope
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
   # Sidebar QR code component
   # 侧边栏二维码组件
-  flip:
-    favicon: # url (favicon)
-    face: # url (QR code)
-    backface: # url (QR code)
-    backcolor: "var(--efu-blue)" # Background color
+  # flip:
+  #   favicon: # url (favicon)
+  #   face: # url (QR code)
+  #   backface: # url (QR code)
+  #   backcolor: "var(--efu-blue)" # Background color
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -358,7 +359,7 @@ post:
       - name: 在爱发电上支持我
         qcode: /img/afdian.png
         url: https://afdian.com/a/Ryoine
-        color: var(--efu-black)
+        color: "#946ce6"
 
   # Share icon
   # 分享图标
@@ -382,7 +383,7 @@ post:
     # local: local color / api: api color / ave: oss average color
     mode: local
     # api address / api 地址
-    api: https://img2color.qqzhi.cc/api?img= # https://api.qjqq.cn/api/Imgcolor?img=
+    api: # https://img2color.qqzhi.cc/api?img=
     # Storage / 缓存时间
     time: 43200000
   footer:
@@ -586,8 +587,8 @@ translate:
 # Right-Sidebar
 # 右下角悬停导航栏
 rightside:
-  enable: true
-  percent: true
+  enable: false
+  percent: false
   hide:
     enable: true
     translate: true
@@ -659,7 +660,7 @@ errorpage:
 # can only use NetEase Cloud Music, QQ Music and other music platforms supported by the mainland China region,
 # the subsequent consideration of the use of JSON files to store music information and customize the implementation of the third-party API does not depend on the page.
 # Music Page
-meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" # Custom API
+# meting_api: # Custom API
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -667,13 +668,13 @@ meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth
 # 音乐胶囊
 capsule:
   enable: false
-  # 歌单 ID / 单曲 ID
-  id: 5144842535
-  # 服务商：netease / qq / xiami / kugou / baidu
-  server: netease
-  # 类型：playlist / song
-  type: playlist
-  volume: 0.8
+  # # 歌单 ID / 单曲 ID
+  # id:
+  # # 服务商：netease / qq / xiami / kugou / baidu
+  # server:
+  # # 类型：playlist / song
+  # type: playlist
+  # volume: 0.8
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -684,18 +685,18 @@ capsule:
 keyboard:
   enable: false
   list:
-    - name: 关闭快捷菜单
-      key: K
-      func: keyboard
-    - name: 打开控制台
-      key: A
-      sco: showConsole
-    - name: 播放/暂停音乐
-      key: M
-      sco: musicToggle
-    - name: 打开友链
-      key: L
-      url: /links/
+    # - name: 关闭快捷菜单
+    #   key: K
+    #   func: keyboard
+    # - name: 打开控制台
+    #   key: A
+    #   sco: showConsole
+    # - name: 播放/暂停音乐
+    #   key: M
+    #   sco: musicToggle
+    # - name: 打开友链
+    #   key: L
+    #   url: /links/
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -799,7 +800,7 @@ katex:
   enable: true
   # Whether to load on each page
   # 是否在每个页面加载
-  per_page: true
+  per_page: false
   # Whether to enable copy formula
   # 是否启用复制公式
   copytex: true
@@ -830,9 +831,10 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="preload" href="https://s3.qjqq.cn/47/663af296b85f4.webp!color" as="image" type="image/webp">
+    - <link rel="preload" href="https://home.qqzhi.cc/img/bg.card.webp" as="image" type="image/webp">
+    - <link rel="preload" href="https://home.qqzhi.cc/img/blog.hq.webp" as="image" type="image/webp">
+    - <link rel="preload" href="https://home.qqzhi.cc/img/avatar.webp" as="image" type="image/webp">
     - <link rel="preconnect" href="https://npm.webcache.cn/">
-    - <link rel="preconnect" href="https://api.qjqq.cn/">
     - <script src="/js/script.js"></script>
     - <link rel="stylesheet" href="/css/style.css">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
