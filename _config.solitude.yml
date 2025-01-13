@@ -623,10 +623,6 @@ footer:
 
   # 备案
   beian:
-    - name: 萌ICP备20232486号
-      url: https://icp.gov.moe/?keyword=20232486
-    - name: 作者主页
-      url: https://www.qqzhi.cc/
 
   # 页脚信息文字
   # 请不要删除主题信息，这是对作者的尊重
