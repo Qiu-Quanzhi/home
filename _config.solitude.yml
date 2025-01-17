@@ -747,7 +747,7 @@ extends:
     - <link rel="preload" href="https://home.qqzhi.cc/img/bg.card.webp" as="image" type="image/webp">
     - <link rel="preload" href="https://home.qqzhi.cc/img/blog.hq.webp" as="image" type="image/webp">
     - <link rel="preload" href="https://home.qqzhi.cc/img/avatar.webp" as="image" type="image/webp">
-    - <link rel="preconnect" href="https://npm.webcache.cn/">
+    - <link rel="preconnect" href="https://cdnjs.webstatic.cn/">
     - <script src="/js/script.js"></script>
     - <link rel="stylesheet" href="/css/style.css">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
