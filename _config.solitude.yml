@@ -357,10 +357,10 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: 'PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif'
+  font-family: 'MiSans VF,MiSans,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif'
   # Code font
   # 代码字体
-  code-font-family: 'JetBrains Mono, ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace'
+  code-font-family: 'JetBrains Mono,ui-monospace,SFMono-Regular,"SF Mono",Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace'
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -751,6 +751,7 @@ extends:
     - <script src="/js/script.js"></script>
     - <link rel="stylesheet" href="/css/style.css">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    - <link rel="stylesheet" href="https://npm.webcache.cn/misans-vf@1.0.0/lib/MiSans.min.css">
     - <link rel="stylesheet" href="https://npm.webcache.cn/@fontsource/jetbrains-mono@5.1.2/index.css">
 
   # Insert in body
