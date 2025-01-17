@@ -71,9 +71,6 @@ nav:
 # 首页顶部
 hometop:
   enable: false
-  banner:
-    title: 分装学识<br>分装快乐
-    desc: 欢迎来到旅禾小栈！
 
 # Article Top Banner
 # 文章推荐轮播图
@@ -301,15 +298,15 @@ post:
   share:
     enable: false
     list:
-      - qq
-      - weibo
-      - twitter
-      - facebook
-      - telegram
-      - whatsapp
-      - linkedin
-      - link
-      - qrcode
+      # - qq
+      # - weibo
+      # - twitter
+      # - facebook
+      # - telegram
+      # - whatsapp
+      # - linkedin
+      # - link
+      # - qrcode
   rss: /atom.xml
   # Article reading progress
   # 文章封面取色
@@ -322,7 +319,7 @@ post:
     # Storage / 缓存时间
     time: 43200000
   footer:
-    enable: true
+    enable: false
     desc: 文章来自 旅禾Tristan # description
     button: # Button
       enable: true
