@@ -1,4 +1,5 @@
 .header-anchor{
+    position: absolute;
     margin-left: .5rem !important;
     color: hsla(225deg,15%,90%,0.32) !important;
     opacity: 0 !important;
@@ -12,11 +13,12 @@
     content: "¶"
 }
 
-h1>.header-anchor:focus, h1:hover>.header-anchor, h1:target>.header-anchor,
-h2>.header-anchor:focus, h2:hover>.header-anchor, h2:target>.header-anchor {
-    opacity: 1 !important;
-    background: none !important;
-    color: #6cf !important;
+h1, h2, h3, h4, h5, h6 {
+    >.header-anchor:focus, &:hover>.header-anchor, &:target>.header-anchor{
+        opacity: 1 !important;
+        background: none !important;
+        color: #6cf !important;
+    }
 }
 
 li:before {

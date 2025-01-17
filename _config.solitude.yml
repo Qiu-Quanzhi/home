@@ -357,7 +357,7 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: 'LXGW Wenkai GB Screen, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif'
+  font-family: 'PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif'
   # Code font
   # 代码字体
   code-font-family: 'JetBrains Mono, ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace'
@@ -379,8 +379,6 @@ background:
 # 当用户退出页面时，修改标题
 lure:
   enable: false
-  jump: 页面已崩溃 :(
-  back: ヾ(≧∇≦*)ゝ被骗了吧
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -753,7 +751,6 @@ extends:
     - <script src="/js/script.js"></script>
     - <link rel="stylesheet" href="/css/style.css">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    - <link rel="stylesheet" href="https://cdnjs.webstatic.cn/ajax/libs/lxgw-wenkai-screen-web/1.501.0/lxgwwenkaigbscreen/result.css">
     - <link rel="stylesheet" href="https://npm.webcache.cn/@fontsource/jetbrains-mono@5.1.2/index.css">
 
   # Insert in body
