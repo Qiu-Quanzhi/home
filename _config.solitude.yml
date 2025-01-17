@@ -57,7 +57,7 @@ nav:
   # Right button
   # 右侧按钮
   right:
-    random: true # Random article / 随机文章按钮
+    random: false # Random article / 随机文章按钮
     custom:
       - name: 开往 # 名字
         url: https://www.travellings.cn/go.html # 跳转链接
@@ -158,11 +158,11 @@ aside:
     noSticky: "about"
     Sticky: "allInfo"
   post: # on the article page
-    noSticky: "about"
-    Sticky: "newestPost"
+    noSticky: ""
+    Sticky: ""
   page: # on the page
-    noSticky: "about"
-    Sticky: "newestPost,allInfo"
+    noSticky: ""
+    Sticky: ""
   # 菜单栏位置(0: 左 1: 右)
   position: 1 # Sidebar positioning(0: left 1: right)
 
@@ -219,7 +219,7 @@ aside:
   toc:
     post: true
     page: true
-    vague: true
+    vague: false
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -472,7 +472,7 @@ index_post_list:
 # Related articles
 # 相关文章
 related_post:
-  enable: true
+  enable: false
   limit: 2
   # created: release date / updated: update date
   # created: 发布日期 / updated: 更新日期
@@ -497,30 +497,15 @@ right_menu:
   # 自定义列表
   custom_list:
     - name: 版权声明
-      click: pjax.loadUrl('/copyright/') # External links with window.open, pjax can not request cross-domain content.
+      click: pjax.loadUrl('/copyright/')
       id:
       class:
       icon: fas fa-copyright
-    - name: 随机文章
-      click: toRandomPost()
-      id: menu-randomPost
-      class:
-      icon: fas fa-dice
-    - name: 文章合集
-      click: pjax.loadUrl('/archives/')
+    - name: 联系本人
+      click: https://www.qqzhi.cc
       id:
       class:
-      icon: fas fa-newspaper
-    - name: 分类合集
-      click: pjax.loadUrl('/categories/') 
-      id:
-      class:
-      icon: fas fa-clone
-    - name: 标签合集
-      click: pjax.loadUrl('/tags/')
-      id:
-      class:
-      icon: fas fa-tags
+      icon: fas fa-id-badge
 # --------------------------- end -----------------------
 
 # --------------------------- start ---------------------------

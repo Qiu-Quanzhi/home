@@ -33,7 +33,6 @@
     "markdown-it-merge-cells": "^2.0.0"
   },
   "devDependencies": {
-    "compress": "^0.99.0",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-html-minifier-terser": "^7.1.0",
