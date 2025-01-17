@@ -299,7 +299,7 @@ post:
   # Share icon
   # 分享图标
   share:
-    enable: true
+    enable: false
     list:
       - qq
       - weibo
