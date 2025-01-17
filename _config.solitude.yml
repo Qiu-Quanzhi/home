@@ -411,7 +411,7 @@ display_mode:
   type: auto
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: true
+  universe: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
