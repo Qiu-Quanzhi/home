@@ -1,4 +1,3 @@
-import { readFileSync } from 'node:fs';
 import gulp from 'gulp';
 import rev from 'gulp-rev';
 import revRewrite from 'gulp-rev-rewrite';
