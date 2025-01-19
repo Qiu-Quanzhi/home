@@ -534,7 +534,7 @@ footer:
       标签合集: /tags/
 
   # 随机友链
-  randomlink: false # 随机友链
+  randomlink: true # 随机友链
 
   # 备案
   beian:
