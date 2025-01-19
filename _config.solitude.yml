@@ -422,7 +422,7 @@ right_menu:
   ctrlOriginalMenu: true
   # Simplified and Traditional Chinese translation.
   # 简繁体转换
-  translate: true
+  translate: false
   # Custom list
   # 自定义列表
   custom_list:
@@ -431,7 +431,7 @@ right_menu:
       id:
       class:
       icon: fas fa-copyright
-    - name: 联系本人
+    - name: 与我联系
       click: https://www.qqzhi.cc
       id:
       class:
@@ -493,7 +493,7 @@ console:
 
 # --------------------------- start ---------------------------
 translate:
-  enable: true
+  enable: false
   defaultEncoding: 2 # 1: 默认繁体 2: 默认简体
   translateDelay: 0 # 首次加载翻译迟疑时间
 # --------------------------- end ---------------------------
@@ -534,7 +534,7 @@ footer:
       标签合集: /tags/
 
   # 随机友链
-  randomlink: true # 随机友链
+  randomlink: false # 随机友链
 
   # 备案
   beian:

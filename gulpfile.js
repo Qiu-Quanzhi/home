@@ -1,8 +1,14 @@
-var gulp = require('gulp');
+import { createRequire } from 'module';
+import { readFileSync } from 'node:fs';
+const require = createRequire(import.meta.url);
+import gulp from 'gulp';
+import rev from 'gulp-rev';
+import revRewrite from 'gulp-rev-rewrite';
 var cleanCSS = require('gulp-clean-css');
 var htmlmin = require('gulp-html-minifier-terser');
 var htmlclean = require('gulp-htmlclean');
 var terser = require('gulp-terser');
+var revdel = require('gulp-rev-delete-original');
 // 压缩js
 gulp.task('minify-js', () =>
     gulp.src(['./public/**/*.js']) //, '!./public/**/*.min.js'
@@ -12,39 +18,64 @@ gulp.task('minify-js', () =>
                 drop_debugger: true
             }
         }))
-        .pipe(gulp.dest('./public'))
+        .pipe(rev())
+        .pipe(gulp.dest('public'))
+        .pipe(revdel())
+        .pipe(rev.manifest({
+            path: 'public/rev-manifest.json',
+            base: 'public',
+            merge: true
+        }))
+        .pipe(gulp.dest('public'))
 )
 //压缩css
 gulp.task('minify-css', () => {
-    return gulp.src(['./public/**/*.css'])
+    return gulp.src(['public/**/*.css'])
         .pipe(cleanCSS({
             compatibility: '*'
         }))
-        .pipe(gulp.dest('./public'));
+        .pipe(rev())
+        .pipe(gulp.dest('public'))
+        .pipe(revdel())
+        .pipe(rev.manifest({
+            path: 'public/rev-manifest.json',
+            base: 'public',
+            merge: true
+        }))
+        .pipe(gulp.dest('public'))
 });
 //压缩html
-gulp.task('minify-html', () => {
-    return gulp.src('./public/**/*.html')
+gulp.task('minify-html',() => {
+    return gulp.src('public/**/*.html')
+        .pipe(revRewrite({ manifest: readFileSync('public/rev-manifest.json') }))
         .pipe(htmlclean())
         .pipe(htmlmin({
-            removeComments: true, //清除html注释
-            collapseWhitespace: true, //压缩html
             collapseBooleanAttributes: true,
-            //省略布尔属性的值，例如：<input checked="true"/> ==> <input />
+            collapseInlineTagWhitespace: true,
+            collapseWhitespace: true,
+            decodeEntities: true,
+            minifyJS: {
+                compress: {
+                    drop_console: true,
+                    drop_debugger: true
+                }
+            },
+            minifyCSS: {
+                compatibility: '*'
+            },
+            minifyURLs: true,
+            removeComments: true,
             removeEmptyAttributes: true,
-            //删除所有空格作属性值，例如：<input id="" /> ==> <input />
             removeScriptTypeAttributes: true,
-            //删除<script>的type="text/javascript"
             removeStyleLinkTypeAttributes: true,
-            //删除<style>和<link>的 type="text/css"
-            minifyJS: true, //压缩页面 JS
-            minifyCSS: true, //压缩页面 CSS
-            minifyURLs: true  //压缩页面URL
+            useShortDoctype: true
         }))
-        .pipe(gulp.dest('./public'))
+        .pipe(gulp.dest('public'))
 });
 
-// 运行gulp命令时依次执行以下任务
-gulp.task('default', gulp.parallel(
-    'minify-js', 'minify-css', 'minify-html'
+gulp.task('default', gulp.series(
+    gulp.parallel(
+        'minify-js', 'minify-css'
+    ),
+    'minify-html'
 ))

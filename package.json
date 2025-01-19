@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "hexo clean",
-    "generate": "hexo generate",
+    "generate": "hexo clean && hexo generate && pnpm exec gulp",
     "preview": "hexo server -s",
     "server": "hexo server",
     "build": "pnpm i && hexo g && pnpm exec gulp && hexo algolia"
@@ -37,6 +37,9 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-html-minifier-terser": "^7.1.0",
     "gulp-htmlclean": "^2.7.22",
+    "gulp-rev": "^11.0.0",
+    "gulp-rev-delete-original": "^0.2.3",
+    "gulp-rev-rewrite": "^6.0.0",
     "gulp-terser": "^2.1.0"
   }
 }
