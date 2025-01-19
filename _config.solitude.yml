@@ -116,10 +116,10 @@ aside:
     # Style 2 无效
     sayhello:
       morning: ✨ 早上好，新的一天开始了
-      noon: 🍲 午休时间
+      noon: 🍃 午休时间
       afternoon: 🌞 下午好
-      night: 🌙 晚上好，记得早点休息
-      goodnight: ✨ 晚安
+      night: 🌙 晚上好，早点休息
+      goodnight: 🔮 晚安
     # Style 2 is invalid, Triggered when sayhello is clicked.
     # Style 2 无效, 点击 sayhello 时触发
     sayhello2:
