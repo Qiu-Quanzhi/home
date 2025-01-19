@@ -844,7 +844,7 @@ giscus:
 # --------------------------- start ---------------------------
 # Search
 search:
-  enable: true
+  enable: false
   # type: 使用的搜索引擎 / search engine
   type: algolia # local / algolia
   tags:
