@@ -1,14 +1,12 @@
-import { createRequire } from 'module';
 import { readFileSync } from 'node:fs';
-const require = createRequire(import.meta.url);
 import gulp from 'gulp';
 import rev from 'gulp-rev';
 import revRewrite from 'gulp-rev-rewrite';
-var cleanCSS = require('gulp-clean-css');
-var htmlmin = require('gulp-html-minifier-terser');
-var htmlclean = require('gulp-htmlclean');
-var terser = require('gulp-terser');
-var revdel = require('gulp-rev-delete-original');
+import cleanCSS from 'gulp-clean-css';
+import htmlmin from 'gulp-html-minifier-terser'
+import htmlclean from 'gulp-htmlclean'
+import terser from 'gulp-terser';
+import revdel from 'gulp-rev-delete-original'
 // 压缩js
 gulp.task('minify-js', () =>
     gulp.src(['./public/**/*.js']) //, '!./public/**/*.min.js'
