@@ -144,26 +144,6 @@ markdown:
     post_asset: true
   inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
 
-# search:
-#   path: search.xml
-#   field: all
-#   content: true
-#   format: 
-
-algolia:
-  appId: "7D8N2G1NZT"
-  apiKey: "06e4d53a4835ca6e2389ba8e3b4a88e3"
-  chunkSize: 5000
-  indexName: "home"
-  fields:
-    - content:strip:truncate,0,500
-    - title
-    - excerpt
-    - cover
-    - categories
-    - tags
-    - permalink
-
 sitemap:
   path: sitemap.xml
   rel: true

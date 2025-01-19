@@ -7,7 +7,7 @@
     "generate": "hexo clean && hexo generate && pnpm exec gulp",
     "preview": "hexo server -s",
     "server": "hexo server",
-    "build": "pnpm i && hexo g && pnpm exec gulp && hexo algolia"
+    "build": "pnpm i && hexo g && pnpm exec gulp"
   },
   "hexo": {
     "version": "7.3.0"
@@ -16,7 +16,6 @@
     "@renbaoshuo/markdown-it-katex": "^2.0.2",
     "hexo": "^7.3.0",
     "hexo-abbrlink": "^2.2.1",
-    "hexo-algoliasearch": "^2.0.1",
     "hexo-filter-nofollow": "^2.0.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
