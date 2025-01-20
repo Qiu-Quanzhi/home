@@ -561,7 +561,7 @@ footer:
 errorpage:
   img: /img/404.avif
   text: =awa= 页面走丢啦 # Text
-  recommendList: true
+  recommendList: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
