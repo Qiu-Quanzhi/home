@@ -20,7 +20,7 @@ links:
         color: vip
       - name: Solitude
         link: https://solitude.js.org/
-        descr: 专注于内容，提供优秀的阅读体验
+        descr: 专注于内容阅读体验
         avatar: /img/faces/solitude.avif
         topimg: /img/faces/solitude.avif
         tag: 主题框架
@@ -31,16 +31,22 @@ links:
     link_list:
       - name: Solitude
         link: https://solitude.js.org/
-        descr: 专注于内容，提供优秀的阅读体验
+        descr: 专注于内容阅读体验
         avatar: /img/faces/solitude.avif
         topimg: /img/faces/solitude.avif
         tag: Hexo主题
       - name: OI Wiki
         link: https://oi-wiki.org/
-        descr: 某大型游戏线上攻略，内含炫酷算术魔法
+        descr: 炫酷算术魔法的线上攻略
         avatar: /img/faces/OI Wiki.avif
         topimg: /img/faces/OI Wiki.avif
         tag: 信竞知识库
+      - name: BewlyBewly
+        link: https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp
+        descr: 简单收拾下你的B站界面
+        avatar: /img/faces/BewlyBewly.avif
+        topimg: /img/faces/BewlyBewly.avif
+        tag: 浏览器扩展
   - class_name: 好友们
     descr: 
     type: card
