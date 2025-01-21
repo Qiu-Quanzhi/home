@@ -15,7 +15,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     >.header-anchor:focus, &:hover>.header-anchor, &:target>.header-anchor{
-        opacity: 1 !important;
+        opacity: .8 !important;
         background: none !important;
         color: #6cf !important;
     }
