@@ -179,7 +179,7 @@ aside:
   siteinfo:
     # Number of articles
     # 文章数量
-    postcount: true
+    postcount: false
     # Total number of words
     # 总字数
     wordcount: true
@@ -393,9 +393,11 @@ expire:
 # Home page article configuration information
 # 首页文章配置信息
 index_post_list:
-  direction: column # row / column
+  direction: row # row / column
   column: 3 # 2: 2 columns 3: 3 columns
   cover: both
+  content: 2
+  length: 200
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -964,7 +966,7 @@ google_adsense:
 # --------------------------- start ---------------------------
 # 非必要请勿修改
 CDN:
-  internal: custom # local / cdnjs / jsdelivr / unpkg / custom
+  internal: local # local / cdnjs / jsdelivr / unpkg / custom
   third_party: custom # cdnjs / jsdelivr / unpkg / custom
   version: true # 是否使用版本号
   # custom_format: https://open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
