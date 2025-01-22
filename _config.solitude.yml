@@ -74,7 +74,7 @@ hometop:
 
 # Article Top Banner
 # 文章推荐轮播图
-carousel: true
+carousel: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -107,7 +107,7 @@ aside:
       img: /img/avatar.webp # url
       sticker: # url, 24x24 size
     url: /about/ # link / 点击头像跳转链接
-    background:  /img/bg.card.webp # Background image(Invalid if style is 0)
+    background:  # Background image(Invalid if style is 0)
     # Content(Invalid if style is 0)
     # 内容(Style 0 无效)
     content:  欢迎光临
@@ -221,7 +221,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - /img/default.avif # 默认图片 / default cover
+      - /img/blog.hq.webp # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -235,7 +235,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - /img/blog.webp # 默认图片 / default cover
+       # - /img/blog.webp # 默认图片 / default cover
     # Location
     # 位置
     locate: 中国·广东
@@ -740,7 +740,6 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="preload" href="https://home.qqzhi.cc/img/bg.card.webp" as="image" type="image/webp">
     - <link rel="preload" href="https://home.qqzhi.cc/img/blog.hq.webp" as="image" type="image/webp">
     - <link rel="preload" href="https://home.qqzhi.cc/img/avatar.webp" as="image" type="image/webp">
     - <link rel="preconnect" href="https://cdnjs.webstatic.cn/">

@@ -144,6 +144,13 @@ markdown:
     post_asset: true
   inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
 
+post_wordcount:
+  item_text: false
+  wordcount: true
+  min2read: false
+  totalcount: true
+  separated_meta: false
+
 sitemap:
   path: sitemap.xml
   rel: true
