@@ -33,21 +33,21 @@ nav:
   group:
     我的:
       个人主页: https://www.qqzhi.cc || /favicon.ico
-      站点监测: https://stats.uptimerobot.com/0tX6TgfoLR
+      站点监测: https://stats.uptimerobot.com/0tX6TgfoLR || https://uptimerobot.com/favicon.ico
 
   # Menu
   # 菜单
   menu:
-    首页: / # name: link
+    首页: / || fas fa-house-chimney
     文库: # name
       文章合集: /archives/ || fas fa-folder-closed # item name: link || icon
       分类合集: /categories/ || fas fa-clone
       标签合集: /tags/ || fas fa-tags
-    友链: /links/
+    友链: /links/ || fas fa-user-group
       # 朋友圈: /moments/ || fas fa-wifi
       # 友情链接&鸣谢: /links/ || fas fa-user-group
       # 开往随机博主: https://www.travellings.cn/go.html || fas fa-train-subway
-    关于: /about/
+    关于: /about/ || fas fa-image-portrait
       # 关于我: /about/ || fas fa-image-portrait
       # 前往我的主页: https://www.qqzhi.cc/ || fas fa-house-user
       # 我的装备: /equipment/ || fas fa-laptop
