@@ -9,27 +9,26 @@ links:
         descr: 前往我的个人主页
         avatar: /img/avatar.webp
         topimg: /img/avatar.webp
-        tag: 博主
+        tag: 站长
         color: vip
       - name: 张洪Heo
         link: https://blog.zhheo.com/
         descr: 分享设计与科技生活
         avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
         topimg: https://bu.dusays.com/2024/07/16/6695ebf7463be.png
-        tag: 主题设计
-        color: vip
+        tag: 原版设计
       - name: 纸鹿摸鱼处
         link: https://blog.zhilu.cyou/
         descr: 纸鹿至麓不知路，支炉制露不止漉
         avatar: /img/faces/zhilu.avif
         topimg: /img/faces/zhilu.avif
-        tag: 设计参考
-      - name: Solitude 改
+        tag: 改版设计参考
+      - name: Solitude改
         link: https://github.com/Qiu-Quanzhi/hexo-theme-solitude/tree/stable
         descr: 魔改使更专注于内容阅读体验
         avatar: /img/faces/solitude..avif
         topimg: /img/faces/solitude..avif
-        tag: 主题框架
+        tag: 本站主题
   - class_name: 本人参与&贡献的项目
     descr: 参加了开发与编写工作的项目
     type: item
