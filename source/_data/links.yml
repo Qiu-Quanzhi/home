@@ -79,5 +79,5 @@ links:
         avatar: /img/faces/Daren.avif
         topimg: /img/faces/Daren.avif
 banner_suffix:
-swiper: true
+swiper: false
 random: false
