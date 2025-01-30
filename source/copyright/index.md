@@ -7,7 +7,7 @@ container: true
 aside: true
 toc: true
 ---
-[旅禾小栈](https://home.qqzhi.cc) **所有原创文章与相关图集等资源**内容由 [旅禾Tristan](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans) 协议发布。作为著作权人，[旅禾Tristan](https://www.qqzhi.cc)（邱泉智）的原创作品同时受到包括但不限于《中华人民共和国著作权法》、《世界知识产权组织版权条约》和《世界知识产权组织表演和录音制品条约》的保护。遵守版权协议无论是在法律上、还是在道德上都是基本的准则和义务，也相信每一位创作者都期望共同建设更好的创作环境。
+[旅禾小栈](https://home.qqzhi.cc) **所有原创文章与相关图集等资源**内容由 [旅禾Ryoine](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans) 协议发布。作为著作权人，[旅禾Ryoine](https://www.qqzhi.cc)（邱泉智）的原创作品同时受到包括但不限于《中华人民共和国著作权法》、《世界知识产权组织版权条约》和《世界知识产权组织表演和录音制品条约》的保护。遵守版权协议无论是在法律上、还是在道德上都是基本的准则和义务，也相信每一位创作者都期望共同建设更好的创作环境。
 
 **所有原创内容，其均在文章标题顶部，以及文章结尾注明了版权说明。**
 

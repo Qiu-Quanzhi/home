@@ -303,7 +303,7 @@ post:
     time: 43200000
   footer:
     enable: false
-    desc: 文章来自 旅禾Tristan # description
+    desc: 文章来自 旅禾Ryoine # description
     button: # Button
       enable: true
       name: 关于作者
