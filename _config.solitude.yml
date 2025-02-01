@@ -417,7 +417,7 @@ right_menu:
       class:
       icon: fas fa-copyright
     - name: 与我联系
-      click: https://www.qqzhi.cc
+      click: window.open('https://www.qqzhi.cc')
       id:
       class:
       icon: fas fa-id-badge
