@@ -131,9 +131,9 @@ personalities:
 #     tips_left: ID 1333E3FF
 likes:
   - type: like-technology
-    bg: https://7.isyangs.cn/66/6738b3606d9d3-66.webp
+    bg: /img/technology.webp
     tips: 兴趣偏好
-    title: 数码科技
+    title: 科技应用
     subtips: 求真务实，注重技术落地
   - type: like-music
     bg: /img/minecraft.webp
