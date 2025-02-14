@@ -11,13 +11,12 @@ links:
         topimg: /img/avatar.webp
         tag: 站长
         color: vip
-      - name: hexo
+      - name: Hexo
         link: https://hexo.io/zh-cn/
         descr: 简单强大的网站框架
-        avatar: https://hexo.io/logo.svg
-        topimg: https://hexo.io/logo.svg
+        avatar: /img/faces/Hexo.avif
+        topimg: /img/faces/Hexo.avif
         tag: 本站框架
-        color: vip
       - name: Solitude改
         link: https://github.com/Qiu-Quanzhi/hexo-theme-solitude/tree/stable
         descr: 魔改使更专注于内容阅读体验
@@ -27,14 +26,14 @@ links:
       - name: 张洪Heo
         link: https://blog.zhheo.com/
         descr: 分享设计与科技生活
-        avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
-        topimg: https://bu.dusays.com/2024/07/16/6695ebf7463be.png
+        avatar: /img/faces/张洪Heo.avif
+        topimg: /img/faces/张洪Heo.banner.avif
         tag: 主题设计
       - name: 伍十七
         link: https://www.efu.me/
         descr: Solitude主题创建者
-        avatar: https://wsrv.nl/?url=github.com/everfu.png
-        topimg: https://wsrv.nl/?url=github.com/everfu.png
+        avatar: /img/faces/伍十七.avif
+        topimg: /img/faces/伍十七.avif
         tag: 主题维护
       - name: 纸鹿摸鱼处
         link: https://blog.zhilu.cyou/
