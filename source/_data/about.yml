@@ -1,13 +1,3 @@
-authorinfo:
-  leftTags:
-    - 🌐 技术爱好者 
-    - 🔍 分享与帮助
-    - 🏠 社区贡献者
-  rightTags:
-    - OIer 🖥️
-    - ENTJ-A 👔
-    - 积极进取 📈
-  image: /img/avatar.webp
 title: 关于我
 contentinfo:
   sup: 你好呀，很高兴认识你 （＾v＾）/
@@ -17,7 +7,7 @@ contentinfo:
   slogan: 我还是……
   mask:
     - 注册志愿者
-    - 信息学竞赛选手
+    - 退役信息学竞赛选手
     - 哔哩哔哩UP主
     - Github开发者
 # oneself: # Fill in as needed
