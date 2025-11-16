@@ -428,7 +428,7 @@ right_menu:
 #  information
 # 复制信息
 copy:
-  enable: true
+  enable: false
   # Turn on Link copyright information after copying.
   # 复制后链接版权信息
   copyright:
