@@ -398,7 +398,7 @@ related_post:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: true
+  enable: false
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: false
@@ -432,7 +432,7 @@ copy:
   # Turn on Link copyright information after copying.
   # 复制后链接版权信息
   copyright:
-    enable: true
+    enable: false
     # Display when the number of words copied exceeds
     # 复制文字时超过多少字数显示
     limit: 50
