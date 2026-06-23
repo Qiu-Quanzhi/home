@@ -1,4 +1,4 @@
-[submodule "themes/solitude"]
-	path = themes/solitude
-	url = https://github.com/Qiu-Quanzhi/hexo-theme-solitude.git
+[submodule "themes/solitude-kai"]
+	path = themes/solitude-kai
+	url = https://github.com/Qiu-Quanzhi/hexo-theme-solitude-kai.git
 	branch = stable

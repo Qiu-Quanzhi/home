@@ -17,8 +17,8 @@ links:
         avatar: /img/faces/Hexo.avif
         topimg: /img/faces/Hexo.avif
         tag: 本站框架
-      - name: Solitude改
-        link: https://github.com/Qiu-Quanzhi/hexo-theme-solitude/tree/stable
+      - name: Solitude·改
+        link: https://github.com/Qiu-Quanzhi/hexo-theme-solitude-kai
         descr: 魔改使更专注于内容阅读体验
         avatar: /img/faces/solitude..avif
         topimg: /img/faces/solitude..avif
@@ -42,7 +42,7 @@ links:
         topimg: /img/faces/zhilu.avif
         tag: UX参考
   - class_name: 本人参与&贡献的项目
-    descr: 参加了开发与编写工作的项目
+    descr: 参加了开发工作的项目
     type: item
     suffix:
     link_list:
