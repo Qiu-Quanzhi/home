@@ -122,39 +122,3 @@ likes:
     button: true
     button_text: NameMC
     button_link: https://namemc.com/profile/Ryoine
-# tj:
-  # provider: custom # Value can be 51la (51la website statistics) or custom
-  # url: https://api.everfu.cn/pv/ # Need to register and obtain from the 51la official website or set up your own Baidu statistics project and fill in the access address
-  # img: https://7.isyangs.cn/1/65eb2e9109826-1.png # Background=
-# tenyear:
-#   tips: 十年之约
-#   title: 孤独一人，众乐乐。
-#   start: 2024-04-20
-#   end: 2034-04-20
-award:
-  enable: true
-  description: 感谢大家的支持和鼓励。因为你们，我感到写作博客可以为你们创造价值。这将使我在这条路上走得更远。
-  tips: '总金额: ¥ {sum}, 将用于博客的维护和更新。'
-rewardList: # Bottom donations
-  # - name: 悦华
-  #   money: 5
-  #   time: 2023-04-20
-  #   icon: fab fa-weixin
-  # - name: 糕小菜
-  #   money: 6.66
-  #   time: 2023-08-11
-  #   icon: fab fa-alipay
-  #   vip: true
-  # - name: 木木
-  #   money: 5
-  #   time: 2023-08-11
-  #   icon: fab fa-weixin
-  # - name: 悦华
-  #   money: 56
-  #   vip: true
-  #   time: 2023-08-25
-  #   icon: fab fa-weixin
-  # - name: 糕小菜
-  #   money: 3.33
-  #   time: 2023-12-24
-  #   icon: fab fa-alipay
