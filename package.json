@@ -4,10 +4,10 @@
   "private": true,
   "packageManager": "pnpm@11.9.0",
   "scripts": {
-    "clean": "hexo clean",
-    "test": "hexo clean && hexo generate && pnpm exec gulp && hexo server -s",
-    "preview": "hexo server -s",
     "server": "hexo server",
+    "test": "hexo clean && hexo generate && pnpm exec gulp && hexo server -s",
+    "clean": "hexo clean",
+    "preview": "hexo server -s",
     "build": "pnpm i && hexo g && pnpm exec gulp"
   },
   "hexo": {
