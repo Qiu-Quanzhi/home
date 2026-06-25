@@ -209,12 +209,8 @@ theme_color:
 # --------------------------- 开始 ---------------------------
 # 显示模式
 display_mode:
-  # auto: automatic switching(Recognize the current theme mode of the device) / dark: dark mode / light: light mode
   # auto: 自动切换（识别设备当前主题模式） / dark: 深色模式 / light: 浅色模式
   type: auto
-  # After opening, the dark mode will display the starry sky background
-  # 开启后深色模式会显示星空背景
-  universe: false
 # --------------------------- 结束 ---------------------------
 
 # --------------------------- 开始 ---------------------------
@@ -398,10 +394,8 @@ extends:
     - <link rel="stylesheet" href="https://npm.webcache.cn/misans-vf@1.0.0/lib/MiSans.min.css">
     - <link rel="stylesheet" href="https://npm.webcache.cn/@fontsource/jetbrains-mono@5.1.2/index.css">
 
-  # Insert in body
   # 插入到 body
   body:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- 结束 ---------------------------
 
 # --------------------------- 开始 ---------------------------
@@ -409,7 +403,6 @@ extends:
 logs:
   enable: true
   home_mini: true
-  music: false
   page: /logs/
   style: 1
   strip: 30
@@ -425,8 +418,6 @@ CDN:
   version: true
   # CDN 自定义链接格式
   custom_format: https://cdnjs.webstatic.cn/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
-  # custom_format: https://npm.webcache.cn/${name}@${version}/${file}
-  # custom_format: https://fastly.jsdelivr.net/npm/${name}@${version}/${min_file} # 自定义格式
   # 直接覆盖默认 CDN 链接（优先级最高）
   options:
     # chart_js:

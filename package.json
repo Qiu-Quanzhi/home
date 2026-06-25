@@ -5,7 +5,7 @@
   "packageManager": "pnpm@11.9.0",
   "scripts": {
     "clean": "hexo clean",
-    "generate": "hexo clean && hexo generate && pnpm exec gulp",
+    "test": "hexo clean && hexo generate && pnpm exec gulp && hexo server -s",
     "preview": "hexo server -s",
     "server": "hexo server",
     "build": "pnpm i && hexo g && pnpm exec gulp"
