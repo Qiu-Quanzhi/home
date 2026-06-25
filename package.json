@@ -2,7 +2,7 @@
   "name": "home.qqzhi.cc",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@11.8.0",
+  "packageManager": "pnpm@11.9.0",
   "scripts": {
     "clean": "hexo clean",
     "generate": "hexo clean && hexo generate && pnpm exec gulp",
