@@ -152,7 +152,7 @@ post:
     cover:
        # - /img/blog.webp
     # 默认位置
-    locate: 地球
+    loc: 地球
     # 默认版权
     copyright:
       enable: true
@@ -173,7 +173,7 @@ post:
     # 更新日期
     updated: true
     # 位置
-    locate: true
+    loc: true
     # 字数
     wordcount: true
   
@@ -293,7 +293,7 @@ footer:
   # 随机友链
   randomlink: true
   
-  
+
   # 页脚信息文字
   links:
     - name: 友链与鸣谢
