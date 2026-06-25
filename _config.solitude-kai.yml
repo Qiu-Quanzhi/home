@@ -69,7 +69,6 @@ aside:
     # 头像
     author:
       img: /img/avatar.webp
-      sticker: # url, 24x24 size ############################################################
       url: /about/ # ?????????????????????????????????????????
     # 时段状态
     state:
@@ -91,14 +90,12 @@ aside:
       电子邮箱: mailto:i@qqzhi.cc || far fa-envelope
   
 
-
   # 文章目录
   toc:
     post: true
     page: true
     vague: false
   
-
 
   # 标签
   tags:
@@ -108,13 +105,11 @@ aside:
     highlight_list:
   
 
-
   # 归档
   archive:
     enable: true
     type: "year"
   
-
 
   # 网站信息
   siteinfo:
@@ -171,7 +166,6 @@ post:
       licenseUrl: /copyright/
   
 
-
   # 文章元信息
   meta:
     # 发布日期
@@ -183,10 +177,7 @@ post:
     # 字数
     wordcount: true
   
-
   
-  # 订阅源
-  rss: /atom.xml
   # 文章封面取色
   covercolor:
     enable: true
@@ -197,7 +188,6 @@ post:
     # 缓存时间
     time: 43200000
   
-
 
   # 页脚
   footer:
