@@ -23,6 +23,7 @@ nav:
     我的:
       个人主页: https://www.qqzhi.cc || /favicon.ico
       站点监测: https://stats.uptimerobot.com/0tX6TgfoLR || /img/uptimerobot.ico
+      个人装备: /gear/ || /favicon.ico
       CanoKey: https://console.canokeys.org/ || /img/canokey.ico
 
   # 菜单
@@ -34,9 +35,6 @@ nav:
       标签合集: /tags/ || fas fa-tags
     友链: /links/ || fas fa-user-group
     关于: /about/ || fas fa-image-portrait
-    更多:
-      即刻短文: /logs/ || fas fa-comment-alt
-      装备: /kit/ || fas fa-laptop
 
   # 右侧按钮
   right:
@@ -55,8 +53,8 @@ aside:
     noSticky: "about"
     Sticky: "allInfo"
   post:
-    noSticky: "allInfo"
-    Sticky: ""
+    noSticky: ""
+    Sticky: "nav"
   page:
     noSticky: ""
     Sticky: ""
@@ -69,7 +67,7 @@ aside:
     # 头像
     author:
       img: /img/avatar.webp
-      url: /about/ # ?????????????????????????????????????????
+      url: /about/
     # 时段状态
     state:
       morning: ✨ 早上好，新的一天开始了
@@ -78,7 +76,7 @@ aside:
       night: 🌙 晚上好，早点休息
       goodnight: 🔮 晚安
     # 交互语录
-    witty_words: # ??????????????????????????????????????????????????????????????????????
+    witty_words:
       - 你可以的
       - 你一定可以的
       - 祝你好运，陌生人
@@ -237,9 +235,6 @@ background:
 # Home page article configuration information
 # 首页文章配置信息
 index_post_list:
-  direction: row # row / column ###############################################################
-  cover: both
-  content: 2
   length: 200
 # --------------------------- 结束 ---------------------------
 
@@ -280,7 +275,7 @@ footer:
     本站:
       版权声明: /copyright/
       个人主页: https://www.qqzhi.cc/
-      本站概览: javascript:sco.showConsole()
+      个人装备: /gear/
     文库:
       文章合集: /archives/
       分类合集: /categories/
@@ -309,7 +304,7 @@ footer:
 # 404 页面
 errorpage:
   img: /img/404.avif
-  text: =awa= 页面走丢啦
+  text: 页面好像走丢了……
   recommendList: false
 # --------------------------- 结束 ---------------------------
 
@@ -322,7 +317,7 @@ lazyload:
   # 加载时占位图
   placeholder: ''
   # 加载失败占位图
-  errorimg: /img/error_load.avif
+  errorimg: /img/404.avif
 # --------------------------- 结束 ---------------------------
 
 # --------------------------- 开始 ---------------------------
@@ -385,8 +380,6 @@ katex:
 extends:
   # 插入到 head
   head:
-    - <link rel="preload" href="https://home.qqzhi.cc/img/blog.hq.webp" as="image" type="image/webp">
-    - <link rel="preload" href="https://home.qqzhi.cc/img/avatar.webp" as="image" type="image/webp">
     - <link rel="preconnect" href="https://cdnjs.webstatic.cn/">
     - <script src="/js/script.js"></script>
     - <link rel="stylesheet" href="/css/style.css">
@@ -399,7 +392,7 @@ extends:
 # --------------------------- 结束 ---------------------------
 
 # --------------------------- 开始 ---------------------------
-# 即刻短文
+# 日志
 logs:
   enable: true
   home_mini: true

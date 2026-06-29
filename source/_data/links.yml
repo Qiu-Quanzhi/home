@@ -1,6 +1,6 @@
 links:
   - class_name: 本站
-    descr: 参与开发与设计，提供灵感与捐助
+    descr: 对本站开发与设计有显著贡献，提供灵感与捐助
     type: card
     suffix:
     link_list:
@@ -20,8 +20,8 @@ links:
       - name: Solitude·改
         link: https://github.com/Qiu-Quanzhi/hexo-theme-solitude-kai
         descr: 魔改使更专注于内容阅读体验
-        avatar: /img/faces/solitude..avif
-        topimg: /img/faces/solitude..avif
+        avatar: /img/faces/solitude-kai.avif
+        topimg: /img/faces/solitude-kai.avif
         tag: 本站主题
       - name: 张洪Heo
         link: https://blog.zhheo.com/
@@ -42,7 +42,7 @@ links:
         topimg: /img/faces/zhilu.avif
         tag: UX参考
   - class_name: 本人参与&贡献的项目
-    descr: 参加了开发工作的项目
+    descr: 推荐阅览以下项目
     type: item
     suffix:
     link_list:
@@ -58,37 +58,29 @@ links:
         avatar: /img/faces/OI Wiki.avif
         topimg: /img/faces/OI Wiki.avif
         tag: 信竞知识库
-      - name: BewlyBewly
-        link: https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp
-        descr: 简单收拾下你的B站界面
-        avatar: /img/faces/BewlyBewly.avif
-        topimg: /img/faces/BewlyBewly.avif
+      - name: BewlyCat
+        link: https://github.com/keleus/BewlyCat
+        descr: 对B站界面进行一些简单更改
+        avatar: /img/faces/BewlyCat.avif
+        topimg: /img/faces/BewlyCat.avif
         tag: 浏览器扩展
   - class_name: 好友们
     descr: 
     type: card
     suffix:
     link_list:
-      - name: 卑微的delta
-        link: https://space.bilibili.com/1544236813
-        descr: 
-        avatar: /img/faces/卑微的delta.avif
-        topimg: /img/faces/卑微的delta.avif
       - name: TaiDeng77
         link: https://space.bilibili.com/393593344
         descr: 
         avatar: /img/faces/TaiDeng77.avif
         topimg: /img/faces/TaiDeng77.avif
-      - name: 通辽汗国反卷专员
-        link: https://space.bilibili.com/1718506008
-        descr: 
-        avatar: /img/faces/通辽汗国反卷专员.avif
-        topimg: /img/faces/通辽汗国反卷专员.avif
-      - name: Daren
+      - name: Lukas不练六色底
+        link: https://space.bilibili.com/1700776310
+        descr: 玩玩魔方，下下围棋，在黑白与彩色的世界之间游走
+        avatar: /img/faces/Lukas不练六色底.avif
+        topimg: /img/faces/Lukas不练六色底.avif
+      - name: AR-Daren
         link: https://space.bilibili.com/1748120521
-        descr: 
-        avatar: /img/faces/Daren.avif
-        topimg: /img/faces/Daren.avif
-banner_suffix:
-swiper: false
-random: false
+        descr: 2026高考完结撒花
+        avatar: /img/faces/AR-Daren.avif
+        topimg: /img/faces/AR-Daren.avif

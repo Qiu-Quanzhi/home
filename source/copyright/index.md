@@ -33,31 +33,33 @@ toc: true
 
 ## 协议转载
 
+### CC BY-NC-ND 4.0 协议之简要说明
+
 **请注意，简要说明仅强调部分核心特征和真正许可协议的部分条款，不是许可协议，也没有法律意义。您应当在使用授权作品前，仔细审阅真正完整许可协议法律文本的所有条款。**
 
 以下是 [CC BY-NC-ND 4.0 协议之简要说明](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans)。
 
 {% blockquote 署名—非商业性使用—禁止演绎 4.0 协议国际版 简要说明 https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans CC BY-NC-ND 4.0 Deed %}
 
-### 您可以自由地
+#### 您可以自由地
 
 1. **共享** — 在任何媒介以任何形式复制、发行本作品
 2. 只要你遵守许可协议条款，许可人就无法收回你的这些权利。
 
-### 惟须遵守下列条件
+#### 惟须遵守下列条件
 
 1. **署名** — 您必须给出 [适当的署名](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-appropriate-credit) ，提供指向本许可协议的链接，同时 [标明是否（对原始作品）作了修改](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-indicate-changes) 。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
 2. **非商业性使用** — 您不得将本作品用于 [商业目的](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-commercial-purposes) 。
 3. **禁止演绎** — 如果您 [再混合、转换、或者基于该作品创作](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-some-kinds-of-mods) ，您不可以分发修改作品。
 4. **没有附加限制** — 您不得适用法律术语或者 [技术措施](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-technological-measures) 从而限制其他人做许可协议允许的事情。
 
-### 声明
+#### 声明
 
 您不必因为公共领域的作品要素而遵守许可协议，或者您的使用被可适用的 [例外或限制](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-exception-or-limitation) 所允许。
 
 不提供担保。许可协议可能不会给与您意图使用的所必须的所有许可。例如，其他权利比如 [形象权、隐私权或人格权](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans#ref-publicity-privacy-or-moral-rights) 可能限制您如何使用作品。
 
-### 脚注
+#### 脚注
 
 - **适当的署名** — 如果已提供，您必须提供创作者和署名者的姓名或名称、版权标识、许可协议标识、免责标识和作品链接。先于4.0版本的CC许可协议也要求您在已经提供的情况下提供作品的名称，可能还有其他轻微差别。
     
@@ -89,14 +91,16 @@ toc: true
     - [更多信息](https://wiki.creativecommons.org/Considerations_for_licensors_and_licensees)
 {% endblockquote %}
 
+### CC BY-NC-ND 4.0 协议之法律文本
+
 以下是 [CC BY-NC-ND 4.0 协议之法律文本](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans)。
 
 {% blockquote 署名—非商业性使用—禁止演绎 4.0 协议国际版 https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans CC BY-NC-ND 4.0 %}
-### 署名—非商业性使用—禁止演绎 4.0 协议国际版
+#### 署名—非商业性使用—禁止演绎 4.0 协议国际版
 
 通过行使本协议所授予的权利（定义如下），您接受并同意受到知识共享(Creative Commons)署名—非商业性使用—禁止演义4.0国际公共许可协议（以下简称“本公共许可协议”）的约束。从合同解释的角度来看，您获得授权的对价是接受本协议的条款，许可人授予您这些权利的对价是可以通过采用本协议条款发布授权作品(material)而获得利益。
 
-#### 第一条 定义
+##### 第一条 定义
 
 1. 演绎作品(Adapted Material)： 指受到著作权与类似权利保护的，基于授权作品(Licensed Material)而创作的作品(material)，例如对授权作品(Licensed Material)的翻译、改编、编排、改写或其他依据著作权与类似权利需要获得所有人许可的修改。为本公共许可协议之目的，当授权作品(Licensed Material)为音乐作品、表演或录音时，将其依时间序列关系与动态影像配合一致而形成的作品，视为演绎作品(Adapted Material)。
 2. 著作权与类似权利： 指著作权和/或与著作权紧密联系的类似权利。类似权利包括但不限于：表演者权、广播组织权、录音录像制作者权、以及数据库特别权利，而不论上述权利的定义和归类如何。为本公共许可协议之目的， [第二条b款第(1)项与第(2)项](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s2b) 所列权利不属于著作权与类似权利。
@@ -110,7 +114,7 @@ toc: true
 10. 数据库特别权利： 指除了著作权之外，衍生于1996年3月11日通过的《欧洲议会与欧盟理事会关于数据库法律保护的指令》(Directive 96/9/EC)及其修改或后续版本的权利，或其他国家或地区本质上与之等同的权利。
 11. 您： 指依据本公共许可协议行使其所获得授予之权利的个人或机构。 **“您的”** 有相应的含义。
 
-#### 第二条 授权范围
+##### 第二条 授权范围
 
 1. **授权** .
     1. 根据本公共许可协议的条款，许可人授予您在全球范围内，免费的、不可再许可、非独占、不可撤销的许可，以对授权作品(Licensed Material)行使以下“协议所授予的权利”：
@@ -128,7 +132,7 @@ toc: true
     2. 本公共许可协议不适用于任何专利权或商标权许可。
     3. 在自愿的或可放弃的法定或强制许可机制下，许可人在最大可能范围内放弃对您因行使本协议所授予的权利而产生的使用费的权利，不论是直接收取或通过集体管理组织收取。在其他任何情况下（包括授权作品(Licensed Material)被商业性使用的情形），许可人明确保留收取使用费的任何权利。
 
-#### 第三条 授权条件
+##### 第三条 授权条件
 
 您行使被许可的权利明确受以下条件限制：
 
@@ -149,7 +153,7 @@ toc: true
     2. 依据您分享本授权作品(Licensed Material)的媒介、方法及情況，您可以采用任何合理方式满足 [第三条a款第(1)项](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s3a1) 的条件。例如，提供包含所要求信息来源的网址(URI)或超链接可算是合理地满足此处的条件。
     3. 如果许可人要求，您必须在合理可行的范围内移除 [第三条a款第(1)项(A)目](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s3a1A) 所要求的任何信息。
 
-#### 第四条 数据库特别权利
+##### 第四条 数据库特别权利
 
 当协议所授予的权利包含数据库特别权利，而该数据库特别权利适用于您对授权作品(Licensed Material)的使用时：
 
@@ -159,13 +163,13 @@ toc: true
 
 为避免疑义，当协议所授予的权利包含其他著作权与类似权利时， [第四条](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s4) 补充且不取代本公共许可协议所规定的您的义务。
 
-#### 第五条 免责声明及责任限制条款
+##### 第五条 免责声明及责任限制条款
 
 1. **除非许可人另有保证，否则在最大可能范围内，许可人按其现状和现有之基础提供授权作品(Licensed Material)，且没有就授权作品(Licensed Material)做出任何形式的陈述或保证：无论明示、默示、法定或其他形式，包括但不限于任何有关本授权作品(Licensed Material)的权属保证、可交易性、适于特定目的、未侵害他人权利、没有潜在或其他瑕疵、精确性或是否有错误，不管是否已知或可发现。当免责声明全部或部分不被允许时，此免责声明可能不适用于您。**
 2. **在最大可能范围内， 对于任何因本公共许可协议或使用授权作品(Licensed Material)引起的直接的、特殊的、间接的、附随的、连带的、惩罚性的、警告性的，或其他的损失、成本、费用或损害，许可人不对您负任何法律上或其他的责任（包括但不限于过失责任）。当责任限制部分或全部不被允许时，该限制不适用于您。**
 3. 前述免责及责任限制声明，应尽可能以最接近于完全排除全部责任的方式解释。
 
-#### 第六条 期限与终止
+##### 第六条 期限与终止
 
 1. 本公共许可协议在著作权与类似权利存续期间内有效。然而，如果您没有遵守此公共许可协议，则您依据此公共许可协议享有的权利自动终止。
 2. 当您使用本授权作品(Licensed Material)的权利根据第六条a款终止时，您的权利在下述情况下恢复：
@@ -178,12 +182,12 @@ toc: true
 3. 为避免疑义，许可人也可在任何时间，以另外的条款或条件提供本授权作品(Licensed Material)，或者停止传播本授权作品(Licensed Material)；然而，许可人此种行为不会终止本公共许可协议。
 4. 本协议第 [一](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s1) 、 [五](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s5) 、 [六](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s6) 、 [七](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s7) 及 [第八条](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans#s8) ，不因本公共许可协议终止而失效。
 
-#### 第七条 其他条款和条件
+##### 第七条 其他条款和条件
 
 1. 除非明示同意，否则许可人不受您表达的任何附加或不同条款或条件约束。
 2. 本公共许可协议未提及的关于授权作品(Licensed Material)之任何安排、共识或协议，不属于且独立于本公共许可协议的条款及条件。
 
-#### 第八条 解释
+##### 第八条 解释
 
 1. 为避免疑义，本许可协议不会也不应被解释为减少、限制、约束或施加条件于无需本公共许可协议授权即可依法行使的对授权作品(Licensed Material)的任何使用。
 2. 在最大可能范围内，如果本公共许可协议的任何条款被视为无法执行，该条款在必要的最小限度内，自动调整至可以执行。如果该条款不能被调整，其应自本公共许可协议中排除适用，不影响其余条款的效力。
