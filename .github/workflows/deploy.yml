@@ -23,8 +23,9 @@ jobs:
 
       - name: 设置 Node.js 环境
         uses: actions/setup-node@v6
-        # with:
-        #   cache: 'pnpm'
+        with:
+          node-version: '24'
+          cache: 'pnpm'
 
       - name: 构建
         run: pnpm run build
