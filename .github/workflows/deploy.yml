@@ -16,6 +16,7 @@ jobs:
       - name: 拉取 main 分支最新代码
         uses: actions/checkout@v7
         with:
+          submodules: 'recursive'
           ref: main
 
       - name: 安装 pnpm
