@@ -23,11 +23,11 @@ jobs:
 
       - name: 设置 Node.js 环境
         uses: actions/setup-node@v4
-        with:
-          cache: 'pnpm'
+        # with:
+        #   cache: 'pnpm'
 
       - name: 构建
-        run: pnpm build
+        run: pnpm run build
 
       - name: 部署 dist 到自有服务器
         uses: easingthemes/ssh-deploy@v4
