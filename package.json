@@ -2,7 +2,7 @@
   "name": "home.qqzhi.cc",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.10.0",
   "scripts": {
     "server": "hexo server",
     "test": "hexo clean && hexo generate && pnpm exec gulp && hexo server -s",
@@ -29,8 +29,10 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
+    "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
-    "markdown-it-merge-cells": "^2.0.0"
+    "markdown-it-merge-cells": "^2.0.0",
+    "moment": "^2.30.1"
   },
   "devDependencies": {
     "gulp": "^5.0.1",
