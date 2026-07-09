@@ -2,9 +2,13 @@ name: 自动构建并部署到自有服务器
 
 on:
   push:
-   branches:
-     - main
-  workflow_dispatch:   # 允许手动触发，方便首次测试
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -12,32 +16,41 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - name: 拉取 main 分支最新代码
+      - name: 拉取代码
         uses: actions/checkout@v7
         with:
           submodules: 'recursive'
           ref: main
+          fetch-depth: 1
 
       - name: 安装 pnpm
         uses: pnpm/action-setup@v6
 
-      - name: 设置 Node.js 环境
+        - name: 设置 Node.js 并缓存
         uses: actions/setup-node@v6
         with:
           node-version: '24'
           cache: 'pnpm'
 
-      - name: 构建
-        run: pnpm run build
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile --prefer-offline
 
-      - name: 部署 dist 到自有服务器
-        uses: easingthemes/ssh-deploy@v6
-        with:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-avz --delete"
-          SOURCE: "public/"
+      - name: 构建
+        run: pnpm build
+
+      - name: 设置 SSH 并部署
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p ${{ secrets.REMOTE_PORT || 22 }} -H ${{ secrets.REMOTE_HOST }} >> ~/.ssh/known_hosts
+          rsync -avz --delete --chmod=D2750,F640 \
+            -e "ssh -p ${{ secrets.REMOTE_PORT || 22 }} -i ~/.ssh/deploy_key" \
+            dist/ ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:${{ secrets.REMOTE_PATH }}
+        env:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          REMOTE_PORT: ${{ secrets.REMOTE_PORT || '22' }}
-          TARGET: ${{ secrets.REMOTE_PATH }}
+          REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
+          REMOTE_PATH: ${{ secrets.REMOTE_PATH }}

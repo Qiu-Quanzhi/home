@@ -5,26 +5,26 @@ import htmlclean from 'gulp-htmlclean'
 import terser from 'gulp-terser';
 // 压缩js
 gulp.task('minify-js', () =>
-    gulp.src(['./public/**/*.js']) //, '!./public/**/*.min.js'
+    gulp.src(['./dist/**/*.js']) //, '!./dist/**/*.min.js'
         .pipe(terser({
             compress: {
                 drop_console: true, // 删除console
                 drop_debugger: true
             }
         }))
-        .pipe(gulp.dest('public'))
+        .pipe(gulp.dest('dist'))
 )
 //压缩css
 gulp.task('minify-css', () => {
-    return gulp.src(['public/**/*.css'])
+    return gulp.src(['dist/**/*.css'])
         .pipe(cleanCSS({
             compatibility: '*'
         }))
-        .pipe(gulp.dest('public'))
+        .pipe(gulp.dest('dist'))
 });
 //压缩html
 gulp.task('minify-html',() => {
-    return gulp.src('public/**/*.html')
+    return gulp.src('dist/**/*.html')
         .pipe(htmlclean())
         .pipe(htmlmin({
             collapseBooleanAttributes: true,
@@ -47,7 +47,7 @@ gulp.task('minify-html',() => {
             removeStyleLinkTypeAttributes: true,
             useShortDoctype: true
         }))
-        .pipe(gulp.dest('public'))
+        .pipe(gulp.dest('dist'))
 });
 
 gulp.task('default', gulp.parallel(
