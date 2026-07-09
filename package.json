@@ -8,7 +8,7 @@
     "test": "hexo clean && hexo generate && pnpm exec gulp && hexo server -s",
     "clean": "hexo clean",
     "preview": "hexo server -s",
-    "build": "pnpm install && hexo clean && hexo generate && pnpm exec gulp"
+    "build": "pnpm i && hexo g && pnpm exec gulp && node ./scripts/generate-error-pages.js"
   },
   "hexo": {
     "version": "8.1.2"
