@@ -13,9 +13,8 @@ import { mkdirSync, writeFileSync, existsSync, readFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const VERSION = '1.0.1';
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const root = resolve(__dirname, '..');
+const VERSION = '2.0.0';
+const root = resolve(process.cwd());
 
 // ── 读取配置文件 ──
 function loadConfig() {
