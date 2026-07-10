@@ -374,8 +374,6 @@ extends:
   # 插入到 head
   head:
     - <link rel="preconnect" href="https://cdnjs.webstatic.cn/">
-    - <script src="/js/script.js"></script>
-    - <link rel="stylesheet" href="/css/style.css">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     - <link rel="stylesheet" href="https://npm.webcache.cn/misans-vf@1.0.0/lib/MiSans.min.css" fetchpriority="high">
     - <link rel="stylesheet" href="https://npm.webcache.cn/@fontsource/jetbrains-mono@5.2.8/index.css" fetchpriority="low">
