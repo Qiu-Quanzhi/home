@@ -219,7 +219,7 @@ font:
   font-family: 'MiSans VF,MiSans,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif'
   # 代码字体
   code-font-size: 16px
-  code-font-family: 'JetBrains Mono,ui-monospace,SFMono-Regular,"SF Mono",Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace'
+  code-font-family: 'ui-monospace,SFMono-Regular,"SF Mono",Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace'
 # --------------------------- 结束 ---------------------------
 
 # --------------------------- 开始 ---------------------------
@@ -376,7 +376,6 @@ extends:
     - <link rel="preconnect" href="https://cdnjs.webstatic.cn/">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     - <link rel="stylesheet" href="https://npm.webcache.cn/misans-vf@1.0.0/lib/MiSans.min.css" fetchpriority="high">
-    - <link rel="stylesheet" href="https://npm.webcache.cn/@fontsource/jetbrains-mono@5.2.8/index.css" fetchpriority="low">
 
   # 插入到 body
   body:
