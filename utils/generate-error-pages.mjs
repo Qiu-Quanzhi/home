@@ -4,8 +4,8 @@
  *
  * @author 邱泉智 QIU Quanzhi (旅禾Ryoine)
  *
- * 优先读取 error-pages.config.json，CLI 参数可覆盖配置文件中的值
- * 用法: node scripts/generate-error-pages.js [--domain <域名>] [--name <网站名>] [--email <邮箱>] [--author <作者>] [--out <输出目录>]
+ * 优先读取 build.config.json，CLI 参数可覆盖配置文件中的值
+ * 用法: node scripts/generate-error-pages.mjs [--domain <域名>] [--name <网站名>] [--email <邮箱>] [--author <作者>] [--out <输出目录>]
  *
  * 占位符: __CODE__ __TITLE__ __DESC__ __BTN__ __YEAR__ __DOMAIN__ __NAME__ __EMAIL__ __AUTHOR__
  */
@@ -18,7 +18,7 @@ const root = resolve(process.cwd());
 
 // ── 读取配置文件 ──
 function loadConfig() {
-  const configPath = resolve(root, 'error-pages.config.json');
+  const configPath = resolve(root, 'build.config.json');
   if (existsSync(configPath)) {
     try { return JSON.parse(readFileSync(configPath, 'utf-8')); }
     catch { /* 解析失败则忽略 */ }
