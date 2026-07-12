@@ -154,8 +154,8 @@ post_wordcount:
 sitemap:
   path: sitemap.xml
   rel: true
-  tags: false
-  categories: false
+  tags: true
+  categories: true
 
 abbrlink:
   alg: crc32  #support crc16(default) and crc32
@@ -167,7 +167,6 @@ nofollow:
   exclude:
     - 'www.qqzhi.cc'
     - 'home.qqzhi.cc'
-    - 'app.qqzhi.cc'
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
