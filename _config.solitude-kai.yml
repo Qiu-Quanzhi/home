@@ -68,7 +68,7 @@ aside:
     # 头像
     author:
       img: /img/avatar.webp
-      url: /about/
+      url: https://www.qqzhi.cc/
     # 时段状态
     state:
       morning: ✨ 早上好，新的一天开始了
@@ -186,16 +186,6 @@ post:
     api: # https://img2color.qqzhi.cc/api?img=
     # 缓存时间
     time: 43200000
-  
-
-  # 页脚
-  footer:
-    enable: false
-    desc: 文章来自 旅禾Ryoine
-    button:
-      enable: true
-      name: 关于作者
-      url: https://www.qqzhi.cc/
 # --------------------------- 结束 ---------------------------
 
 # --------------------------- 开始 ---------------------------
