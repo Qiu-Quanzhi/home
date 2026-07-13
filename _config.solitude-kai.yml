@@ -12,7 +12,7 @@ site:
   name:
     class: text
     custom: 旅禾小栈
-  icon: /img/avatar.webp
+  icon: /img/avatar.avif
   unified_title: 旅禾小站
 # --------------------------- 结束 ---------------------------
 
@@ -67,7 +67,7 @@ aside:
   my_card:
     # 头像
     author:
-      img: /img/avatar.webp
+      img: /img/avatar.avif
       url: https://www.qqzhi.cc/
     # 时段状态
     state:
@@ -139,7 +139,7 @@ page:
   default:
     # 未设置封面时的默认图片
     cover:
-      - /img/blog.hq.webp
+      - /img/blog.avif
 # --------------------------- 结束 ---------------------------
 
 # --------------------------- 开始 ---------------------------
@@ -149,7 +149,7 @@ post:
   default:
     # 默认封面图片
     cover:
-       # - /img/blog.webp
+       # - /img/blog.avif
     # 默认位置
     loc: 地球
     # 默认版权
@@ -346,7 +346,7 @@ OpenGraph:
   enable: true
   options:
     twitter_card: "summary_large_image"
-    twitter_image: "https://home.qqzhi.cc/img/blog.hq.webp"
+    twitter_image: "https://home.qqzhi.cc/img/blog.avif"
     twitter_id: "@RyoineQ"
     twitter_site: "@RyoineQ"
 # --------------------------- 结束 ---------------------------

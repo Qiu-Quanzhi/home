@@ -2,7 +2,7 @@
 title: 版权声明
 date: 2024-12-16 13:00:59
 type: banner
-cover: /img/blog.hq.webp
+cover: /img/blog.avif
 container: true
 toc: true
 ---

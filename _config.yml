@@ -108,7 +108,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: /img/avatar.webp
+  icon: /img/avatar.avif
   autodiscovery: true
   template:
 

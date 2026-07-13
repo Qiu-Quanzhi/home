@@ -7,8 +7,8 @@ links:
       - name: 旅禾Ryoine
         link: https://www.qqzhi.cc
         descr: 前往我的个人主页
-        avatar: /img/avatar.webp
-        topimg: /img/avatar.webp
+        avatar: /img/avatar.avif
+        topimg: /img/avatar.avif
         tag: 站长
         color: vip
       - name: Hexo
