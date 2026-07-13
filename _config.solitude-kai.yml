@@ -275,6 +275,8 @@ footer:
   links:
     - name: 粤ICP备2026090856号
       url: https://beian.miit.gov.cn/
+    - name: 粤公网安备44098302441277号
+      url: https://beian.mps.gov.cn/#/query/webSearch?code=44098302441277
     - name: 友链与鸣谢
       url: /links/
     - name: 订阅
