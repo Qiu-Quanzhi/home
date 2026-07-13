@@ -78,9 +78,12 @@ aside:
       goodnight: 🔮 晚安
     # 交互语录
     witty_words:
-      - 你可以的
       - 你一定可以的
-      - 祝你好运，陌生人
+      - 今天也要开心呀
+      - 万事胜意
+      - 好运气分你一半
+      - 祝你好运
+
     # 更多链接
     information:
       个人主页: https://www.qqzhi.cc || fas fa-house-chimney
