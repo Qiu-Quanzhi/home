@@ -368,7 +368,8 @@ katex:
 extends:
   # 插入到 head
   head:
-    - <link rel="preconnect" href="https://cdnjs.webstatic.cn/">
+    - <link rel="preconnect" href="https://npm.webcache.cn" crossorigin="anonymous">
+    - <link rel="preconnect" href="https://cdnjs.webstatic.cn" crossorigin="anonymous">
     - <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     - <link rel="stylesheet" href="https://npm.webcache.cn/misans-vf@1.0.0/lib/MiSans.min.css" fetchpriority="high">
 
