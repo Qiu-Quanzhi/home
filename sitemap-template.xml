@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  {% for post in posts %}
+  <url>
+    <loc>{{ post.permalink | uriencode }}</loc>
+    {% if post.updated %}
+    <lastmod>{{ post.updated | formatDate }}</lastmod>
+    {% elif post.date %}
+    <lastmod>{{ post.date | formatDate }}</lastmod>
+    {% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    {% if post.cover and post.cover.length > 0 %}
+    <image:image>
+      <image:loc>{{ (config.url + post.cover) | uriencode }}</image:loc>
+      {% if post.title %}
+      <image:title>{{ post.title }}</image:title>
+      {% endif %}
+    </image:image>
+    {% endif %}
+  </url>
+  {% endfor %}
+
+  <url>
+    <loc>{{ config.url | uriencode }}</loc>
+    <lastmod>{{ sNow | formatDate }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  {% for tag in tags %}
+  <url>
+    <loc>{{ tag.permalink | uriencode }}</loc>
+    <lastmod>{{ sNow | formatDate }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  {% endfor %}
+
+  {% for cat in categories %}
+  <url>
+    <loc>{{ cat.permalink | uriencode }}</loc>
+    <lastmod>{{ sNow | formatDate }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  {% endfor %}
+</urlset>
