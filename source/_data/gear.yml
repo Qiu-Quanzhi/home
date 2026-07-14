@@ -4,22 +4,22 @@
       - name: Legion R9000P
         specification: AMD Ryzen 9 9955HX / 16英寸 / 32GB(16*2) 5600 / 1T SSD / RTX5070 Ti 12G 独显 / 碳晶黑
         description: 性能释放强劲、散热表现优秀，适配创作等高性能需求场景
-        image: https://p1.lefile.cn/product/adminweb/2025/09/10/0g9CAH1VWMZiDVrtcOhQSVDEH-3828.jpg
+        image: /img/gear/legion-r9000p.avif
         link: https://newsupport.lenovo.com.cn/deviceDeploy.html?fromsource=deviceDeploy&selname=PF5TDVFG
       - name: Galaxy Tab S10+
         specification: 钛影灰 / 256GB / 12.4英寸
         description: 支持Spen手写笔，多任务操作流畅舒适，适合办公、学习、笔记、绘画等场景
-        image: https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x820nzaachn/gallery/cn-galaxy-tab-s10-plus-sm-x820-sm-x820nzaachn-543961062
+        image: /img/gear/galaxy-tab-s10-plus.avif
         link: https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-plus-silver-256gb-sm-x820nzsachn/
       - name: Huawei Band 11 Pro
         specification: 独立 GNSS 五模卫星定位 / NFC
         description: 支持健康监测、运动记录、离线支付，出行更方便
-        image: https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/wearables/band11-pro/specs/black.png
+        image: /img/gear/huawei-band-11-pro.avif
         link: https://consumer.huawei.com/cn/wearables/band11-pro/specs/
       - name: Honor V30 PRO
         specification: 8GB+256GB
         description: 好用耐用
-        image: https://consumer.huawei.com/content/dam/honor/cn/product-list/smartphone/honorv30pro/honorv30pro-listimage-blue.png
+        image: /img/gear/honor-v30-pro.avif
 
 - class_name: 外部设备
   description: 好用的外设分享
@@ -27,30 +27,30 @@
       - name: Logitech G304
         specification: 无线鼠标
         description: 采用2.5G接收器，干电池供能，续航持久，经典不过时
-        image: https://resource.logitechg.com/w_2443,h_1374,ar_16:9,c_pad,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/products/g305/2025-update/g305-lightspeed-mouse-top-angle-black-gallery-1.png
+        image: /img/gear/logitech-g304.avif
         link: https://www.logitechg.com/zh-cn/shop/p/g304-lightspeed-wireless-gaming-mouse.910-005286
       - name: OPPO Enco Free 4
         specification: 蓝牙耳机
         description: 蓝牙5.4，支持设备双连，音质优异，主动降噪效果良好
-        image: https://msecfs.opposhop.cn/commons-media-picture/GOODS/20250410/0bee5f69d8f68d7decd38ba6b0062bff77153042.png?_w_=720&_h_=720&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_720%2Ch_720&x-oss-process=image/format,avif
+        image: /img/gear/oppo-enco-free-4.avif
         link: https://www.opposhop.cn/cn/web/products/33453.html
       - name: ZHITAI TiPlus7100
         specification: PCIe 4.0 固态硬盘 / 2TB
         description: 性能优秀，配合佳翼 M.2 NVMe 固态移动硬盘盒使用
-        image: https://website-cdn.ymtc.com/cn/resources/image/20231207/7ef08641c9c648f1be397a1c2b6ba23e.png
+        image: /img/gear/zhitai-tiplus7100.avif
         link: https://www.ymtc.com/cn/products/43.html?cat=44
       - name: CanoKey Canary
         specification: 硬件安全密钥
         description: 支持FIDO2、WebAuthn、OpenPGP、PIV等协议与功能，性价比高
-        image: https://img.alicdn.com/imgextra/i1/3829954749/O1CN01SV5qQy1kx5vpLQB7q_!!3829954749.jpg_.webp
+        image: /img/gear/canokey-canary.avif
         link: https://docs.canokeys.org/zh-hans/
       - name: Logitech K380
         specification: 蓝牙键盘
         description: 一款多设备键盘，体积小巧，敲击安静，便于出行
-        image: https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/multi-keyboard-k380/gallery/k380-sand-gallery-1-us.png
+        image: /img/gear/logitech-k380.avif
         link: https://www.logitech.com/zh-cn/shop/p/k380-multi-device
       - name: WD Purple WD43PURZ
         specification: 机械硬盘 / 4TB CMR / 256MB 缓存
         description: 西数紫盘，稳定可靠，配合 TOOLFREE 3.5寸 SATA 移动硬盘盒使用
-        image: https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/290783/36/6864/31601/68259be8F05875a96/7e9582ed76c4a23a.jpg.avif
+        image: /img/gear/wd-purple-wd43purz.avif
         link: https://www.westerndigital.com/zh-tw/products/internal-drives/wd-purple-sata-hdd?sku=WD43PURZ
