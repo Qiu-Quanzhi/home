@@ -11,6 +11,8 @@
     <lastmod>{{ post.updated | formatDate }}</lastmod>
     {% elif post.date %}
     <lastmod>{{ post.date | formatDate }}</lastmod>
+    {% else %}
+    <lastmod>{{ sNow | formatDate }}</lastmod>
     {% endif %}
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
