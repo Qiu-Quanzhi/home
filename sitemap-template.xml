@@ -14,8 +14,16 @@
     {% else %}
     <lastmod>{{ sNow | formatDate }}</lastmod>
     {% endif %}
+    {% if post.layout == 'page' %}
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    {% elif post.layout == 'post' and (post.sticky or post._sitemap_recent) %}
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    {% else %}
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    {% endif %}
     {% if post.cover and post.cover.length > 0 %}
     <image:image>
       <image:loc>{{ (config.url + post.cover) | uriencode }}</image:loc>
@@ -38,8 +46,8 @@
   <url>
     <loc>{{ tag.permalink | uriencode }}</loc>
     <lastmod>{{ sNow | formatDate }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   {% endfor %}
 
@@ -47,8 +55,8 @@
   <url>
     <loc>{{ cat.permalink | uriencode }}</loc>
     <lastmod>{{ sNow | formatDate }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   {% endfor %}
 </urlset>
