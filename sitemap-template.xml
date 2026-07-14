@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   {% for post in posts %}
   <url>
     <loc>{{ post.permalink | uriencode }}</loc>
@@ -29,6 +27,9 @@
       <image:loc>{{ (config.url + post.cover) | uriencode }}</image:loc>
       {% if post.title %}
       <image:title>{{ post.title }}</image:title>
+      {% endif %}
+      {% if post.excerpt %}
+      <image:caption>{{ post.excerpt | escape }}</image:caption>
       {% endif %}
     </image:image>
     {% endif %}
