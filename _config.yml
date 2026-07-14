@@ -163,7 +163,7 @@ abbrlink:
 
 nofollow:
   enable: true
-  field: post
+  field: site
   exclude:
     - 'www.qqzhi.cc'
     - 'home.qqzhi.cc'
