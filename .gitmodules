@@ -2,3 +2,6 @@
 	path = themes/solitude-kai
 	url = https://github.com/Qiu-Quanzhi/hexo-theme-solitude-kai.git
 	branch = stable
+[submodule "source/fonts"]
+	path = source/fonts
+	url = https://github.com/Qiu-Quanzhi/MiSansVF.git
