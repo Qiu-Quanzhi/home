@@ -6,13 +6,15 @@ container: true
 aside: true
 toc: true
 ---
-[旅禾小栈](https://home.qqzhi.cc) **所有原创文章与相关图集等资源**，其内容均由 [旅禾Ryoine](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans) 协议发布。作为著作权人，[旅禾Ryoine](https://www.qqzhi.cc)（邱泉智）的原创作品同时受到包括但不限于《中华人民共和国著作权法》、《世界知识产权组织版权条约》和《世界知识产权组织表演和录音制品条约》的保护。遵守版权协议，无论是在法律上还是道德上，都是基本的准则与义务——相信每一位创作者都期望共同建设更好的创作环境。
+[旅禾小栈](https://home.qqzhi.cc) **所有原创文章与相关图集等资源**，均由 [邱泉智 (旅禾Ryoine)](https://www.qqzhi.cc) 创作，并以 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans) 知识共享许可协议授权发布。作为著作权人，[邱泉智 (旅禾Ryoine)](https://www.qqzhi.cc)的原创作品受著作权法及国际条约保护。遵守版权协议，既是法律义务，亦是道德责任——我们相信，每一位创作者都心怀共同愿景，愿为营造更健康、更友善的创作生态贡献力量。
 
 **所有原创内容，其均在文章标题顶部，以及文章结尾注明了版权说明。**
 
+下面[简明要求](#简明要求)一章仅供参考，起补充说明与指导之作用，请以具体协议为准。
+
 下面[协议转载](#协议转载)一章附有 CC BY-NC-ND 4.0 协议之[简要说明](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans)与[法律文本](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-hans)，亦可点此查看[协议原文之拷贝](https://home.qqzhi.cc/copyright/LICENSE.txt)。
 
-下面[简明要求](#简明要求)一章仅供参考，起补充说明与指导之作用，请以具体协议为准。
+---
 
 ## 简明要求
 
@@ -29,6 +31,8 @@ toc: true
   本站全部原创文章的衍生品如翻译版本禁止公开分享和分发。如有更好的修改建议或者衍生创作需求，可以联系作者。
 
   作为参考资料时可以无需完整转载，摘录所需要的部分内容即可，但需标注出处。
+
+---
 
 ## 协议转载
 
@@ -89,6 +93,8 @@ toc: true
     
     - [更多信息](https://wiki.creativecommons.org/Considerations_for_licensors_and_licensees)
 {% endblockquote %}
+
+---
 
 ### CC BY-NC-ND 4.0 协议之法律文本
 
