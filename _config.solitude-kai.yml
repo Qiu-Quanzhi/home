@@ -282,6 +282,11 @@ footer:
       icon: /img/icons/police-emblem.avif
       url: https://beian.mps.gov.cn/#/query/webSearch?code=44098302441277
 
+  # 版权信息
+  copyright:
+    author: 邱泉智
+    url: https://www.qqzhi.cc/
+
   # 页脚信息文字
   links:
     - name: 友链与鸣谢
