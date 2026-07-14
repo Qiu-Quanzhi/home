@@ -25,8 +25,8 @@ nav:
       个人主页: https://www.qqzhi.cc || /favicon.ico
       个人装备: /gear/ || /favicon.ico
     工具:
-      站点监测: https://stats.uptimerobot.com/0tX6TgfoLR || /img/icons/UptimeRobot.avif
-      CanoKey: https://console.canokeys.org/ || /img/icons/CanoKey.avif
+      站点监测: https://stats.uptimerobot.com/0tX6TgfoLR || /img/icons/uptimerobot.avif
+      CanoKey: https://console.canokeys.org/ || /img/icons/canokey.avif
 
   # 菜单
   menu:
