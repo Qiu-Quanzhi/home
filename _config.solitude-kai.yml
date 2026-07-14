@@ -23,9 +23,9 @@ nav:
   group:
     我的:
       个人主页: https://www.qqzhi.cc || /favicon.ico
-      站点监测: https://stats.uptimerobot.com/0tX6TgfoLR || /img/UptimeRobot.ico
+      站点监测: https://stats.uptimerobot.com/0tX6TgfoLR || /img/icons/UptimeRobot.ico
       个人装备: /gear/ || /favicon.ico
-      CanoKey: https://console.canokeys.org/ || /img/CanoKey.png
+      CanoKey: https://console.canokeys.org/ || /img/icons/CanoKey.png
 
   # 菜单
   menu:
@@ -278,7 +278,7 @@ footer:
     - name: 粤ICP备2026090856号
       url: https://beian.miit.gov.cn/
     - name: 粤公网安备44098302441277号
-      icon: /img/police-emblem.avif
+      icon: /img/icons/police-emblem.avif
       url: https://beian.mps.gov.cn/#/query/webSearch?code=44098302441277
 
   # 页脚信息文字

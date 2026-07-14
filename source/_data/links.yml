@@ -14,32 +14,32 @@ links:
       - name: Hexo
         link: https://hexo.io/zh-cn/
         descr: 简单强大的网站框架
-        avatar: /img/faces/Hexo.avif
-        topimg: /img/faces/Hexo.avif
+        avatar: /img/showcase/Hexo.avif
+        topimg: /img/showcase/Hexo.avif
         tag: 本站框架
       - name: Solitude·改
         link: https://github.com/Qiu-Quanzhi/hexo-theme-solitude-kai
         descr: 魔改使更专注于内容阅读体验
-        avatar: /img/faces/solitude-kai.avif
-        topimg: /img/faces/solitude-kai.avif
+        avatar: /img/showcase/solitude-kai.avif
+        topimg: /img/showcase/solitude-kai.avif
         tag: 本站主题
       - name: 张洪Heo
         link: https://blog.zhheo.com/
         descr: 分享设计与科技生活
-        avatar: /img/faces/张洪Heo.avif
-        topimg: /img/faces/张洪Heo.banner.avif
+        avatar: /img/showcase/张洪Heo.avif
+        topimg: /img/showcase/张洪Heo.banner.avif
         tag: 主题设计
       - name: 伍十七
         link: https://www.efu.me/
         descr: Solitude主题创建者
-        avatar: /img/faces/伍十七.avif
-        topimg: /img/faces/伍十七.avif
+        avatar: /img/showcase/伍十七.avif
+        topimg: /img/showcase/伍十七.avif
         tag: 主题维护
       - name: 纸鹿摸鱼处
         link: https://blog.zhilu.cyou/
         descr: 纸鹿至麓不知路，支炉制露不止漉
-        avatar: /img/faces/zhilu.avif
-        topimg: /img/faces/zhilu.avif
+        avatar: /img/showcase/zhilu.avif
+        topimg: /img/showcase/zhilu.avif
         tag: UX参考
   - class_name: 本人参与&贡献的项目
     descr: 推荐阅览以下项目
@@ -49,20 +49,20 @@ links:
       - name: Solitude
         link: https://solitude.js.org/
         descr: 专注于内容阅读体验
-        avatar: /img/faces/solitude.avif
-        topimg: /img/faces/solitude.avif
+        avatar: /img/showcase/solitude.avif
+        topimg: /img/showcase/solitude.avif
         tag: Hexo主题
       - name: OI Wiki
         link: https://oi-wiki.org/
         descr: 炫酷算术魔法的线上攻略
-        avatar: /img/faces/OI Wiki.avif
-        topimg: /img/faces/OI Wiki.avif
+        avatar: /img/showcase/OI Wiki.avif
+        topimg: /img/showcase/OI Wiki.avif
         tag: 信竞知识库
       - name: BewlyCat
         link: https://github.com/keleus/BewlyCat
         descr: 对B站界面进行一些简单更改
-        avatar: /img/faces/BewlyCat.avif
-        topimg: /img/faces/BewlyCat.avif
+        avatar: /img/showcase/BewlyCat.avif
+        topimg: /img/showcase/BewlyCat.avif
         tag: 浏览器扩展
   - class_name: 好友们
     descr: 
@@ -72,15 +72,15 @@ links:
       - name: TaiDeng77
         link: https://space.bilibili.com/393593344
         descr: 
-        avatar: /img/faces/TaiDeng77.avif
-        topimg: /img/faces/TaiDeng77.avif
+        avatar: /img/showcase/TaiDeng77.avif
+        topimg: /img/showcase/TaiDeng77.avif
       - name: Lukas不练六色底
         link: https://space.bilibili.com/1700776310
         descr: 玩玩魔方，下下围棋，在黑白与彩色的世界之间游走
-        avatar: /img/faces/Lukas不练六色底.avif
-        topimg: /img/faces/Lukas不练六色底.avif
+        avatar: /img/showcase/Lukas不练六色底.avif
+        topimg: /img/showcase/Lukas不练六色底.avif
       - name: AR-Daren
         link: https://space.bilibili.com/1748120521
         descr: 2026高考完结撒花
-        avatar: /img/faces/AR-Daren.avif
-        topimg: /img/faces/AR-Daren.avif
+        avatar: /img/showcase/AR-Daren.avif
+        topimg: /img/showcase/AR-Daren.avif

@@ -99,23 +99,23 @@ skills: # Add as needed
 # game:
 #     # box_shadow: '0 -69px 203px 11px #04120f inset'
 #   - title: 游戏爱好
-#     img: /img/Minecraft.avif
+#     img: /img/topics/Minecraft.avif
 #     subtitle: Minecraft
 #     box_shadow: '0 -69px 203px 11px #415dc9 inset'
 #     tips_right: ID Ryoine
 #   - title: 游戏爱好
-#     img: https://7.isyangs.cn/66/6738b3618ee12-66.webp
-#     subtitle: 狼人杀
+#     img: 
+#     subtitle: 
 #     box_shadow: '0 -69px 203px 11px #415dc9 inset'
-#     tips_left: ID 1333E3FF
+#     tips_left: 
 likes:
   - type: like-technology
-    bg: /img/technology.avif
+    bg: /img/topics/technology.avif
     tips: 兴趣偏好
     title: 科技应用
     subtips: 求真务实，注重技术落地
   - type: like-music
-    bg: /img/Minecraft.avif
+    bg: /img/topics/Minecraft.avif
     tips: 游戏偏好
     title: Minecraft
     subtips: "ID: Ryoine"
