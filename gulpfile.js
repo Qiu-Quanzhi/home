@@ -49,7 +49,7 @@ gulp.task('minify-html',() => {
         }))
         .pipe(gulp.dest('dist'))
 });
-
+// 总工作流
 gulp.task('default', gulp.parallel(
     'minify-js', 'minify-css', 'minify-html'
 ))
