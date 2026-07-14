@@ -377,9 +377,8 @@ katex:
 extends:
   # 插入到 head
   head:
-    - <link rel="preconnect" href="https://npm.webcache.cn" crossorigin="anonymous">
     - <link rel="preconnect" href="https://cdnjs.webstatic.cn" crossorigin="anonymous">
-    - <link rel="stylesheet" href="https://npm.webcache.cn/misans-vf@1.0.0/lib/MiSans.min.css" fetchpriority="high">
+    - <link rel="stylesheet" href="/fonts/MiSansVF.css" fetchpriority="high">
     - <link rel="icon" href="/favicon.ico">
 
   # 插入到 body
