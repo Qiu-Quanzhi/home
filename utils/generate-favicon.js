@@ -32,7 +32,7 @@ function buildIco({ width, height, buf }) {
 
 const png = await sharp(join(ROOT, 'logo.png'))
   .resize(SIZE, SIZE, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
-  .png()
+  .png({ compressionLevel: 9, effort: 10, adaptiveFiltering: true })
   .toBuffer();
 
 const ico = buildIco({ width: SIZE, height: SIZE, buf: png });
