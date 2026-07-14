@@ -99,7 +99,7 @@ skills: # Add as needed
 # game:
 #     # box_shadow: '0 -69px 203px 11px #04120f inset'
 #   - title: 游戏爱好
-#     img: /img/topics/Minecraft.avif
+#     img: /img/topics/minecraft.avif
 #     subtitle: Minecraft
 #     box_shadow: '0 -69px 203px 11px #415dc9 inset'
 #     tips_right: ID Ryoine
@@ -115,7 +115,7 @@ likes:
     title: 科技应用
     subtips: 求真务实，注重技术落地
   - type: like-music
-    bg: /img/topics/Minecraft.avif
+    bg: /img/topics/minecraft.avif
     tips: 游戏偏好
     title: Minecraft
     subtips: "ID: Ryoine"
