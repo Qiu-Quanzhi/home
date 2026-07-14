@@ -17,8 +17,8 @@ contentinfo:
 #   major: 中国广东 # Major
 #   occupation: 学生 # Occupation
 #   map: # Map of your location
-#     light: https://7.isyangs.cn/1/65eb2ec63a9aa-1.png # Daytime
-#     dark: https://7.isyangs.cn/1/65eb2eedc780e-1.png # Nighttime
+#     light:  # Daytime
+#     dark:  # Nighttime
 motto:
   title: 个人格言
   prefix: 永不熄灭的理想之焰，
