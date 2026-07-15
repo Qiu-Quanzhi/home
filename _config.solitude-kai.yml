@@ -383,10 +383,10 @@ extends:
   # 插入到 head
   head:
     - <link rel="preconnect" href="https://cdnjs.webstatic.cn" crossorigin="anonymous">
-    - <link rel="stylesheet" href="/fonts/MiSansVF/MiSansVF.css" fetchpriority="high">
-    - <link rel="stylesheet" href="/fonts/FontAwesome/css/fontawesome.min.css" fetchpriority="high">
-    - <link rel="stylesheet" href="/fonts/FontAwesome/css/solid.min.css" fetchpriority="high">
-    - <link rel="stylesheet" href="/fonts/FontAwesome/css/brands.min.css" fetchpriority="high">
+    - <link rel="stylesheet" href="/res/MiSansVF/MiSansVF.css" fetchpriority="high">
+    - <link rel="stylesheet" href="/res/FontAwesome/css/fontawesome.min.css" fetchpriority="high">
+    - <link rel="stylesheet" href="/res/FontAwesome/css/solid.min.css" fetchpriority="high">
+    - <link rel="stylesheet" href="/res/FontAwesome/css/brands.min.css" fetchpriority="high">
     # - <link rel="stylesheet" href="https://cdn.jsdmirror.com/gh/Qiu-Quanzhi/MiSansVF/MiSansVF.css" fetchpriority="high">
     # - <link rel="stylesheet" href="https://cdn.jsdmirror.cn/npm/@fortawesome/fontawesome-free@7.3.0/css/fontawesome.min.css" fetchpriority="high">
     # - <link rel="stylesheet" href="https://cdn.jsdmirror.cn/npm/@fortawesome/fontawesome-free@7.3.0/css/solid.min.css" fetchpriority="high">
@@ -416,18 +416,18 @@ CDN:
   # 是否使用版本号
   version: true
   # CDN 自定义链接格式
-  custom_format: https://cdnjs.webstatic.cn/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format: /res/${cdnjs_name}/${min_cdnjs_file}
   # 直接覆盖默认 CDN 链接（优先级最高）
   options:
     # chart_js:
-    color_thief: /res/color-thief/color-thief.min.js
+    # color_thief:
     # fontawesome:
     # katex:
     # katex_copytex:
-    lazyload: /res/lazyload/lazyload.iife.min.js
+    # lazyload:
     # mermaid_js:
-    pace_js: /res/pace/pace.min.js
-    pjax: /res/pjax/pjax.min.js
-    swiper_css: /res/swiper/swiper-bundle.min.css
-    swiper_js: /res/swiper/swiper-bundle.min.js
+    # pace_js:
+    # pjax:
+    # swiper_css:
+    # swiper_js:
 # --------------------------- 结束 ---------------------------
