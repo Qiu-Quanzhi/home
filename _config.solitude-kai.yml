@@ -263,8 +263,8 @@ footer:
   # 页脚链接栏
   group:
     本站:
+      小栈首页: /
       版权声明: /copyright/
-      个人主页: https://www.qqzhi.cc/
       个人装备: /gear/
     文库:
       文章合集: /archives/
