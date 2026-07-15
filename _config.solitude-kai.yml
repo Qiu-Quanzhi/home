@@ -420,14 +420,14 @@ CDN:
   # 直接覆盖默认 CDN 链接（优先级最高）
   options:
     # chart_js:
-    # color_thief:
+    color_thief: /res/color-thief/color-thief.min.js
     # fontawesome:
     # katex:
     # katex_copytex:
-    # lazyload:
+    lazyload: /res/lazyload/lazyload.iife.min.js
     # mermaid_js:
-    # pace_js:
-    # pjax:
-    # swiper_css:
-    # swiper_js:
+    pace_js: /res/pace/pace.min.js
+    pjax: /res/pjax/pjax.min.js
+    swiper_css: /res/swiper/swiper-bundle.min.css
+    swiper_js: /res/swiper/swiper-bundle.min.js
 # --------------------------- 结束 ---------------------------
